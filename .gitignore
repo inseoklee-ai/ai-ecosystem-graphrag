@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+keys.env
+check_out*.txt
+all_nodes.txt
+gs_check*.txt
+build_run*.log

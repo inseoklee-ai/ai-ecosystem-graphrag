@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit-app",
+      "runtimeExecutable": "C:\\Users\\lis29\\projects\\ai-ecosystem-graphrag\\.venv\\Scripts\\streamlit.exe",
+      "runtimeArgs": ["run", "app.py", "--server.headless", "true"],
+      "port": 8501
+    }
+  ]
+}

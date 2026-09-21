@@ -1,0 +1,114 @@
+{
+  "topic": "AI 기업 · 모델 · 제품 생태계",
+
+  "schema": {
+    "node_types": ["Company", "Person", "Model", "Product"],
+    "relation_types": [
+      { "name": "FOUNDED", "domain": "Person", "range": "Company", "description": "사람이 회사를 설립함" },
+      { "name": "WORKED_AT", "domain": "Person", "range": "Company", "description": "사람이 회사에서 재직했거나 재직 중임" },
+      { "name": "LEADS", "domain": "Person", "range": "Company", "description": "사람이 회사의 현재 대표/CEO/사장임" },
+      { "name": "DEVELOPED", "domain": "Company", "range": "Model", "description": "회사가 모델을 만듦" },
+      { "name": "RELEASED", "domain": "Company", "range": "Product", "description": "회사가 제품을 출시함" },
+      { "name": "BUILT_ON", "domain": "Product", "range": "Model", "description": "제품이 특정 모델을 기반으로 함" },
+      { "name": "ACQUIRED", "domain": "Company", "range": "Company", "description": "회사가 다른 회사를 인수함" },
+      { "name": "INVESTED_IN", "domain": "Company", "range": "Company", "description": "회사가 다른 회사에 지분·자금을 투자함 (경영권 이전 없음)" },
+      { "name": "PARTNERED_WITH", "domain": "Company", "range": "Company", "description": "두 회사가 인수·투자 없이 협력함" },
+      { "name": "PARENT_OF", "domain": "Company", "range": "Company", "description": "회사가 다른 회사의 모회사임 (자회사 구조)" },
+      { "name": "RUNS_ON", "domain": "Product", "range": "Company", "description": "제품이 특정 회사의 인프라/하드웨어로 구동됨" }
+    ]
+  },
+
+  "extraction": {
+    "model": "gpt-4o-mini",
+    "chunk_chars": 2500,
+    "chunk_overlap_chars": 200,
+    "max_workers": 8,
+    "temperature": 0,
+    "force_rebuild": false
+  },
+
+  "normalization": {
+    "comment": "표기 통일(별칭 병합)에 쓰는 규칙. alias_map의 key는 LLM 추출 결과에 나타날 수 있는 변형 표기, value는 코퍼스 문서 제목과 일치시킨 정규 표기.",
+    "generic_noun_stoplist": [
+      "회사", "기업", "모델", "제품", "인공지능", "AI", "챗봇", "스타트업", "빅테크",
+      "언어 모델", "대형 언어 모델", "생성형 인공지능", "딥 러닝", "클라우드"
+    ],
+    "alias_map": {
+      "OpenAI": "오픈AI",
+      "오픈 AI": "오픈AI",
+      "Open AI": "오픈AI",
+      "메타": "메타 플랫폼스",
+      "메타 (기업)": "메타 플랫폼스",
+      "페이스북": "메타 플랫폼스",
+      "Facebook": "메타 플랫폼스",
+      "구글 딥마인드": "구글 딥마인드",
+      "딥마인드": "구글 딥마인드",
+      "DeepMind": "구글 딥마인드",
+      "Google DeepMind": "구글 딥마인드",
+      "구글": "구글",
+      "Google": "구글",
+      "알파벳": "구글",
+      "테슬라": "테슬라 (기업)",
+      "Tesla": "테슬라 (기업)",
+      "엑스": "X (소셜 네트워크)",
+      "X": "X (소셜 네트워크)",
+      "트위터": "X (소셜 네트워크)",
+      "Twitter": "X (소셜 네트워크)",
+      "MS": "마이크로소프트",
+      "Microsoft": "마이크로소프트",
+      "엔비디아": "엔비디아",
+      "Nvidia": "엔비디아",
+      "NVIDIA": "엔비디아",
+      "앤스로픽": "앤트로픽",
+      "Anthropic": "앤트로픽",
+      "xAI": "xAI (기업)",
+      "GitHub": "깃허브",
+      "깃허브": "깃허브",
+      "챗지피티": "챗GPT",
+      "ChatGPT": "챗GPT",
+      "그록": "Grok",
+      "구글 바드": "구글 바드",
+      "바드": "구글 바드",
+      "Bard": "구글 바드",
+      "제미니": "제미니 (언어 모델)",
+      "Gemini": "제미니 (언어 모델)",
+      "제미나이": "제미니 (언어 모델)",
+      "구글 제미나이": "제미니 (언어 모델)",
+
+      "앤트로픽 PBC": "앤트로픽",
+      "메타 플랫폼스 주식회사": "메타 플랫폼스",
+      "페이스북 주식회사": "메타 플랫폼스",
+      "더페이스북 주식회사": "메타 플랫폼스",
+      "퍼플렉시티 AI": "퍼플렉시티 (검색 엔진)",
+      "퍼플렉시티": "퍼플렉시티 (검색 엔진)",
+      "팔란티어": "팔란티어 테크놀로지스",
+      "XAI": "xAI (기업)",
+      "X.AI Corp.": "xAI (기업)",
+      "스태빌리티 AI": "Stability AI",
+      "선다 피차이": "순다르 피차이",
+      "Sam Altman": "샘 올트먼",
+      "Dall-E": "DALL-E",
+      "황": "젠슨 황",
+      "세르게이": "세르게이 브린",
+      "워즈니악": "스티브 워즈니악",
+      "머스크": "일론 머스크",
+      "저커버그": "마크 저커버그",
+      "래리": "래리 페이지",
+      "코덱스": "오픈AI 코덱스",
+      "Claude": "클로드",
+      "Claude 2": "클로드 2",
+      "Claude 3": "클로드 3",
+      "Claude 3.5 Sonnet": "클로드 3.5 Sonnet",
+      "Claude Gov": "클로드 고브",
+      "Cowork": "Claude Cowork"
+    }
+  },
+
+  "traversal": {
+    "comment": "608개 노드의 실제 차수 분포를 보고 정함: 상위 10개 노드만 차수>20이고 나머지 598개는 20 이하, 중앙값은 1 — 20을 허브 경계로 삼음. 허브는 '경유 금지'가 아니라 '뻗어나갈 때 상한'을 둔다: 허브 자체는 시작점/도착점으로 자유롭게 쓰되, 허브에서 다음 홉으로 확장할 때는 근거 문서 수가 많은 순으로 최대 fanout_cap개 이웃까지만 따라간다. (허브를 완전히 막으면 마이크로소프트·오픈AI·구글처럼 실제 정답이 반드시 거쳐가는 다리 노드까지 끊겨버려서 상한 방식을 택함)",
+    "default_hops": 2,
+    "max_hops": 3,
+    "hub_degree_threshold": 20,
+    "hub_fanout_cap": 15
+  }
+}

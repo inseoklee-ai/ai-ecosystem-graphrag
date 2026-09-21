@@ -1,0 +1,5343 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="sources" attr.type="string" />
+  <key id="d2" for="edge" attr.name="evidence_count" attr.type="long" />
+  <key id="d1" for="edge" attr.name="relation" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="오픈AI">
+      <data key="d0">Company</data>
+    </node>
+    <node id="GPT-4o">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GPT-4">
+      <data key="d0">Model</data>
+    </node>
+    <node id="샘 알트먼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="GPT-4.5">
+      <data key="d0">Model</data>
+    </node>
+    <node id="마이크로소프트 애저">
+      <data key="d0">Company</data>
+    </node>
+    <node id="GPT-4.1">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GPT-4.1 mini">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GPT-4.1 nano">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GPT-3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="마이크로소프트">
+      <data key="d0">Company</data>
+    </node>
+    <node id="GPT-2">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Latitude">
+      <data key="d0">Company</data>
+    </node>
+    <node id="AI Dungeon">
+      <data key="d0">Product</data>
+    </node>
+    <node id="미라 무라티">
+      <data key="d0">Person</data>
+    </node>
+    <node id="LMSYS">
+      <data key="d0">Company</data>
+    </node>
+    <node id="샘 올트먼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="GPT-5.2">
+      <data key="d0">Product</data>
+    </node>
+    <node id="피지 시모">
+      <data key="d0">Person</data>
+    </node>
+    <node id="애런 레비">
+      <data key="d0">Person</data>
+    </node>
+    <node id="박스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="GPT-5">
+      <data key="d0">Model</data>
+    </node>
+    <node id="챗GPT">
+      <data key="d0">Product</data>
+    </node>
+    <node id="GPT-OSS">
+      <data key="d0">Product</data>
+    </node>
+    <node id="DALL-E">
+      <data key="d0">Model</data>
+    </node>
+    <node id="DALL-E 2">
+      <data key="d0">Model</data>
+    </node>
+    <node id="DALL-E 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GPT-1">
+      <data key="d0">Model</data>
+    </node>
+    <node id="일론 머스크">
+      <data key="d0">Person</data>
+    </node>
+    <node id="정부효율부">
+      <data key="d0">Company</data>
+    </node>
+    <node id="GPT">
+      <data key="d0">Model</data>
+    </node>
+    <node id="InstructGPT">
+      <data key="d0">Model</data>
+    </node>
+    <node id="xAI (기업)">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Grok">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Aurora">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Black Forest Labs">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Flux">
+      <data key="d0">Model</data>
+    </node>
+    <node id="API">
+      <data key="d0">Product</data>
+    </node>
+    <node id="그록 웹 및 iOS 앱">
+      <data key="d0">Product</data>
+    </node>
+    <node id="그록 앱의 안드로이드 버전">
+      <data key="d0">Product</data>
+    </node>
+    <node id="그록3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="그록3 미니">
+      <data key="d0">Model</data>
+    </node>
+    <node id="그록3 리즈닝">
+      <data key="d0">Model</data>
+    </node>
+    <node id="그록4">
+      <data key="d0">Model</data>
+    </node>
+    <node id="애플">
+      <data key="d0">Company</data>
+    </node>
+    <node id="우버">
+      <data key="d0">Company</data>
+    </node>
+    <node id="깃랩">
+      <data key="d0">Company</data>
+    </node>
+    <node id="BBVA">
+      <data key="d0">Company</data>
+    </node>
+    <node id="암젠">
+      <data key="d0">Company</data>
+    </node>
+    <node id="로우스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="노션">
+      <data key="d0">Company</data>
+    </node>
+    <node id="그록코드 패스트1">
+      <data key="d0">Product</data>
+    </node>
+    <node id="그록4.1">
+      <data key="d0">Product</data>
+    </node>
+    <node id="앤트로픽">
+      <data key="d0">Company</data>
+    </node>
+    <node id="구글">
+      <data key="d0">Company</data>
+    </node>
+    <node id="피트 헤그세스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="스페이스X">
+      <data key="d0">Company</data>
+    </node>
+    <node id="제미니 (언어 모델)">
+      <data key="d0">Product</data>
+    </node>
+    <node id="도날트 투스크">
+      <data key="d0">Person</data>
+    </node>
+    <node id="마우고자타 투스크">
+      <data key="d0">Person</data>
+    </node>
+    <node id="야로스와프 카친스키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="마테우시 모라비에츠키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="라파우 트샤스코프스키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="그로키피디아">
+      <data key="d0">Product</data>
+    </node>
+    <node id="위키백과">
+      <data key="d0">Model</data>
+    </node>
+    <node id="애나 데이비드">
+      <data key="d0">Person</data>
+    </node>
+    <node id="X (소셜 네트워크)">
+      <data key="d0">Company</data>
+    </node>
+    <node id="존 에드워즈">
+      <data key="d0">Person</data>
+    </node>
+    <node id="버락 오바마">
+      <data key="d0">Person</data>
+    </node>
+    <node id="구글 코리아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="일리야 수츠케버">
+      <data key="d0">Person</data>
+    </node>
+    <node id="OpenAI Gym">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Universe">
+      <data key="d0">Product</data>
+    </node>
+    <node id="그레그 브로크먼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="에마드 모스타크">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Stability AI">
+      <data key="d0">Company</data>
+    </node>
+    <node id="사이러스 호즈">
+      <data key="d0">Person</data>
+    </node>
+    <node id="프렘 아카라주">
+      <data key="d0">Person</data>
+    </node>
+    <node id="스테이블 디퓨전">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Stable Audio Open">
+      <data key="d0">Model</data>
+    </node>
+    <node id="이고르 바부쉬킨">
+      <data key="d0">Person</data>
+    </node>
+    <node id="잭 도시">
+      <data key="d0">Person</data>
+    </node>
+    <node id="비즈 스톤">
+      <data key="d0">Person</data>
+    </node>
+    <node id="에번 윌리엄스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="노아 글래스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="오데오">
+      <data key="d0">Company</data>
+    </node>
+    <node id="구글 바드">
+      <data key="d0">Model</data>
+    </node>
+    <node id="구글 어시스턴트">
+      <data key="d0">Product</data>
+    </node>
+    <node id="잭 크라우칙">
+      <data key="d0">Person</data>
+    </node>
+    <node id="순다르 피차이">
+      <data key="d0">Person</data>
+    </node>
+    <node id="데미스 허사비스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="구글 딥마인드">
+      <data key="d0">Company</data>
+    </node>
+    <node id="알파고">
+      <data key="d0">Model</data>
+    </node>
+    <node id="알파스타">
+      <data key="d0">Model</data>
+    </node>
+    <node id="피차이">
+      <data key="d0">Person</data>
+    </node>
+    <node id="이마젠 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Gemini Advanced with Ultra 1.0">
+      <data key="d0">Product</data>
+    </node>
+    <node id="스택 오버플로">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Ultra 1.0">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Gemini Advanced">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Gemini CLI">
+      <data key="d0">Product</data>
+    </node>
+    <node id="제미나이 라이브">
+      <data key="d0">Product</data>
+    </node>
+    <node id="래리 페이지">
+      <data key="d0">Person</data>
+    </node>
+    <node id="세르게이 브린">
+      <data key="d0">Person</data>
+    </node>
+    <node id="YouTube">
+      <data key="d0">Company</data>
+    </node>
+    <node id="더블클릭">
+      <data key="d0">Company</data>
+    </node>
+    <node id="모토로라 인코퍼레이티드">
+      <data key="d0">Company</data>
+    </node>
+    <node id="모토로라">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Gmail">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Google 사전">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Google 리더">
+      <data key="d0">Product</data>
+    </node>
+    <node id="iGoogle">
+      <data key="d0">Product</data>
+    </node>
+    <node id="닌텐도">
+      <data key="d0">Company</data>
+    </node>
+    <node id="트랜스포머">
+      <data key="d0">Model</data>
+    </node>
+    <node id="제프리 힌튼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="ImageNet 대회">
+      <data key="d0">Model</data>
+    </node>
+    <node id="George Dahl">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Merck Molecular Activity Challenge">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Sepp Hochreiter">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Tox21 Data Challenge">
+      <data key="d0">Model</data>
+    </node>
+    <node id="사티아 나델라">
+      <data key="d0">Person</data>
+    </node>
+    <node id="빌 게이츠">
+      <data key="d0">Person</data>
+    </node>
+    <node id="폴 앨런">
+      <data key="d0">Person</data>
+    </node>
+    <node id="DNNresearch">
+      <data key="d0">Company</data>
+    </node>
+    <node id="얀 르쿤">
+      <data key="d0">Person</data>
+    </node>
+    <node id="메타 플랫폼스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="딥마인드 테크놀로지스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="앤드류 응">
+      <data key="d0">Person</data>
+    </node>
+    <node id="바이두">
+      <data key="d0">Company</data>
+    </node>
+    <node id="깃허브">
+      <data key="d0">Company</data>
+    </node>
+    <node id="깃허브 코파일럿">
+      <data key="d0">Product</data>
+    </node>
+    <node id="오픈AI 코덱스">
+      <data key="d0">Model</data>
+    </node>
+    <node id="마이크로소프트 마우스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마이크로소프트 오피스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 3.0">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 95">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 CE 1.0">
+      <data key="d0">Model</data>
+    </node>
+    <node id="제너럴 일렉트릭">
+      <data key="d0">Company</data>
+    </node>
+    <node id="해리슨 체이스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="로버스트 인텔리전스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="랭체인">
+      <data key="d0">Company</data>
+    </node>
+    <node id="LangServe">
+      <data key="d0">Product</data>
+    </node>
+    <node id="LangSmith">
+      <data key="d0">Product</data>
+    </node>
+    <node id="LangGraph">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아마존">
+      <data key="d0">Company</data>
+    </node>
+    <node id="어펌드 네트웍스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="제니맥스 미디어">
+      <data key="d0">Company</data>
+    </node>
+    <node id="뉘앙스 커뮤니케이션스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="액티비전 블리자드">
+      <data key="d0">Company</data>
+    </node>
+    <node id="마이크로소프트 코파일럿">
+      <data key="d0">Model</data>
+    </node>
+    <node id="마이크로소프트 365 Copilot">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Windows Copilot">
+      <data key="d0">Model</data>
+    </node>
+    <node id="빙챗">
+      <data key="d0">Model</data>
+    </node>
+    <node id="윈도우 XP">
+      <data key="d0">Product</data>
+    </node>
+    <node id="엑스박스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="엑스박스 360">
+      <data key="d0">Product</data>
+    </node>
+    <node id="준 디지털 미디어 플레이어">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 비스타">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마이크로소프트 오피스 2007">
+      <data key="d0">Product</data>
+    </node>
+    <node id="애저 서비스 플랫폼">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 7">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 폰 OS">
+      <data key="d0">Model</data>
+    </node>
+    <node id="노키아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Microsoft 365 Chat">
+      <data key="d0">Product</data>
+    </node>
+    <node id="코파일럿">
+      <data key="d0">Product</data>
+    </node>
+    <node id="존 프리드먼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="마이크로소프트 코파일럿 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="macOS용 네이티브 코파일럿 앱">
+      <data key="d0">Product</data>
+    </node>
+    <node id="코파일럿 보이스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="코파일럿 랩스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="코파일럿 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="G42">
+      <data key="d0">Company</data>
+    </node>
+    <node id="인도네시아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="UW-밀워키 AI 공동 혁신 연구소">
+      <data key="d0">Company</data>
+    </node>
+    <node id="블랙록">
+      <data key="d0">Company</data>
+    </node>
+    <node id="그렉 브로크만">
+      <data key="d0">Person</data>
+    </node>
+    <node id="마크 저커버그">
+      <data key="d0">Person</data>
+    </node>
+    <node id="인텔리전트 미디어 그룹">
+      <data key="d0">Company</data>
+    </node>
+    <node id="시냅스 미디어 플레이어">
+      <data key="d0">Model</data>
+    </node>
+    <node id="윈도우 10">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 서버 2016">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Hexadite">
+      <data key="d0">Company</data>
+    </node>
+    <node id="파워셸 코어 6.0">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 10 S">
+      <data key="d0">Product</data>
+    </node>
+    <node id="애저 스피어">
+      <data key="d0">Product</data>
+    </node>
+    <node id="서피스 고">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마이크로소프트 팀즈">
+      <data key="d0">Product</data>
+    </node>
+    <node id="도요타 통상">
+      <data key="d0">Company</data>
+    </node>
+    <node id="애저 거버먼트 시크릿">
+      <data key="d0">Product</data>
+    </node>
+    <node id="프로젝트 Mu">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 폼과 WPF">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마이크로소프트 엣지">
+      <data key="d0">Product</data>
+    </node>
+    <node id="라쏘">
+      <data key="d0">Product</data>
+    </node>
+    <node id="스카이프">
+      <data key="d0">Company</data>
+    </node>
+    <node id="야머">
+      <data key="d0">Company</data>
+    </node>
+    <node id="모장">
+      <data key="d0">Company</data>
+    </node>
+    <node id="윈도우 8">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 8 소비자 프리뷰">
+      <data key="d0">Product</data>
+    </node>
+    <node id="서피스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Outlook.com">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 서버 2012">
+      <data key="d0">Product</data>
+    </node>
+    <node id="윈도우 폰 8">
+      <data key="d0">Product</data>
+    </node>
+    <node id="특허 추적기">
+      <data key="d0">Product</data>
+    </node>
+    <node id="키넥트">
+      <data key="d0">Model</data>
+    </node>
+    <node id="마이크로소프트 서피스 허브">
+      <data key="d0">Model</data>
+    </node>
+    <node id="스티브 발머">
+      <data key="d0">Person</data>
+    </node>
+    <node id="존 W. 톰슨">
+      <data key="d0">Person</data>
+    </node>
+    <node id="무비 젠">
+      <data key="d0">Model</data>
+    </node>
+    <node id="AI 데이터 센터">
+      <data key="d0">Company</data>
+    </node>
+    <node id="인스타그램">
+      <data key="d0">Company</data>
+    </node>
+    <node id="WhatsApp">
+      <data key="d0">Company</data>
+    </node>
+    <node id="리브라">
+      <data key="d0">Product</data>
+    </node>
+    <node id="찬 저커버그 이니셔티브">
+      <data key="d0">Company</data>
+    </node>
+    <node id="셰릴 샌드버그">
+      <data key="d0">Person</data>
+    </node>
+    <node id="레이밴 스토리">
+      <data key="d0">Product</data>
+    </node>
+    <node id="라마 2">
+      <data key="d0">Model</data>
+    </node>
+    <node id="스레드">
+      <data key="d0">Product</data>
+    </node>
+    <node id="하비에르 올리반">
+      <data key="d0">Person</data>
+    </node>
+    <node id="닉 클레그 경">
+      <data key="d0">Person</data>
+    </node>
+    <node id="수잔 리">
+      <data key="d0">Person</data>
+    </node>
+    <node id="앤드루 보스워스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="데이비드 위너">
+      <data key="d0">Person</data>
+    </node>
+    <node id="크리스 콕스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="제니퍼 길리언 뉴스태드">
+      <data key="d0">Person</data>
+    </node>
+    <node id="프랜시스 하우건">
+      <data key="d0">Person</data>
+    </node>
+    <node id="오큘러스 헤드셋">
+      <data key="d0">Product</data>
+    </node>
+    <node id="오리온">
+      <data key="d0">Model</data>
+    </node>
+    <node id="도널드 트럼프">
+      <data key="d0">Person</data>
+    </node>
+    <node id="오나보">
+      <data key="d0">Company</data>
+    </node>
+    <node id="오큘러스 VR">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Beat Games">
+      <data key="d0">Company</data>
+    </node>
+    <node id="기피">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Kustomer">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Lofelt">
+      <data key="d0">Company</data>
+    </node>
+    <node id="사라 윈-윌리엄스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="페이스북과 인스타그램의 뉴스 콘텐츠">
+      <data key="d0">Product</data>
+    </node>
+    <node id="디엠">
+      <data key="d0">Company</data>
+    </node>
+    <node id="데이비드 홀츠">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Midjourney">
+      <data key="d0">Company</data>
+    </node>
+    <node id="페이스북 인도 온라인 서비스스 비티 리미티드">
+      <data key="d0">Company</data>
+    </node>
+    <node id="테슬라 (기업)">
+      <data key="d0">Company</data>
+    </node>
+    <node id="소라">
+      <data key="d0">Model</data>
+    </node>
+    <node id="소라 2">
+      <data key="d0">Product</data>
+    </node>
+    <node id="디즈니">
+      <data key="d0">Company</data>
+    </node>
+    <node id="월트 디즈니 컴퍼니">
+      <data key="d0">Company</data>
+    </node>
+    <node id="LAION">
+      <data key="d0">Company</data>
+    </node>
+    <node id="스테이블 디퓨전 XL">
+      <data key="d0">Model</data>
+    </node>
+    <node id="LAION-5B">
+      <data key="d0">Model</data>
+    </node>
+    <node id="구글 크롬">
+      <data key="d0">Product</data>
+    </node>
+    <node id="스케일 AI">
+      <data key="d0">Company</data>
+    </node>
+    <node id="조르다나 커틀러">
+      <data key="d0">Person</data>
+    </node>
+    <node id="제프 베이조스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="홀 푸드 마켓">
+      <data key="d0">Company</data>
+    </node>
+    <node id="미스트랄 AI">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Mistral Small 3.1">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Mistral Medium 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Magistral Small">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Magistral Medium">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Mistral Large 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Ministral 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Devstral 2">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Devstral Small 2">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Mistral Vibe">
+      <data key="d0">Product</data>
+    </node>
+    <node id="DC 코믹스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아르튀르 멘쉬">
+      <data key="d0">Person</data>
+    </node>
+    <node id="기욤 램플">
+      <data key="d0">Person</data>
+    </node>
+    <node id="티모테 라크루아">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Le Chat">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Mistral 7B">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Mixtral 8x7B">
+      <data key="d0">Model</data>
+    </node>
+    <node id="CMA CGM">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아마존닷컴">
+      <data key="d0">Company</data>
+    </node>
+    <node id="앤디 재시">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Shelfari">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Souq.com">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아스트로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="RXPass">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아마존 웹 서비스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="미국 우정청">
+      <data key="d0">Company</data>
+    </node>
+    <node id="나이키">
+      <data key="d0">Company</data>
+    </node>
+    <node id="AmazonBasics">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Annapurna Labs">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Amazon Web Services">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Brilliance Audio">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Amazon">
+      <data key="d0">Company</data>
+    </node>
+    <node id="코믹솔로지">
+      <data key="d0">Company</data>
+    </node>
+    <node id="eero">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Health Navigator">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Junglee">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Kuiper Systems">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Lab126">
+      <data key="d0">Company</data>
+    </node>
+    <node id="스티브 잡스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="스티브 워즈니악">
+      <data key="d0">Person</data>
+    </node>
+    <node id="매킨토시">
+      <data key="d0">Model</data>
+    </node>
+    <node id="오티스 챈들러">
+      <data key="d0">Person</data>
+    </node>
+    <node id="굿리즈">
+      <data key="d0">Company</data>
+    </node>
+    <node id="엘리자베스 쿠리">
+      <data key="d0">Person</data>
+    </node>
+    <node id="오더블">
+      <data key="d0">Company</data>
+    </node>
+    <node id="제이미 시미노프">
+      <data key="d0">Person</data>
+    </node>
+    <node id="링">
+      <data key="d0">Company</data>
+    </node>
+    <node id="트위치">
+      <data key="d0">Company</data>
+    </node>
+    <node id="NeXT">
+      <data key="d0">Company</data>
+    </node>
+    <node id="매킨토시 512K">
+      <data key="d0">Product</data>
+    </node>
+    <node id="레이저라이터">
+      <data key="d0">Product</data>
+    </node>
+    <node id="페이지메이커">
+      <data key="d0">Product</data>
+    </node>
+    <node id="시스템 7">
+      <data key="d0">Product</data>
+    </node>
+    <node id="파워북">
+      <data key="d0">Model</data>
+    </node>
+    <node id="M1">
+      <data key="d0">Model</data>
+    </node>
+    <node id="애플 비전 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="애플 페이 레이터">
+      <data key="d0">Product</data>
+    </node>
+    <node id="픽셀메이터">
+      <data key="d0">Company</data>
+    </node>
+    <node id="애플 컴퓨터 컴퍼니">
+      <data key="d0">Company</data>
+    </node>
+    <node id="로널드 웨인">
+      <data key="d0">Person</data>
+    </node>
+    <node id="팀 쿡">
+      <data key="d0">Person</data>
+    </node>
+    <node id="애플 I">
+      <data key="d0">Product</data>
+    </node>
+    <node id="리사">
+      <data key="d0">Product</data>
+    </node>
+    <node id="론 존슨">
+      <data key="d0">Person</data>
+    </node>
+    <node id="맥북 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이맥">
+      <data key="d0">Product</data>
+    </node>
+    <node id="맥 미니">
+      <data key="d0">Product</data>
+    </node>
+    <node id="비츠 일렉트로닉스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="샤잠">
+      <data key="d0">Company</data>
+    </node>
+    <node id="M2">
+      <data key="d0">Model</data>
+    </node>
+    <node id="아스타르테">
+      <data key="d0">Company</data>
+    </node>
+    <node id="낫띵 리얼">
+      <data key="d0">Company</data>
+    </node>
+    <node id="이매직">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아이무비">
+      <data key="d0">Product</data>
+    </node>
+    <node id="DVD 스튜디오 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이튠즈">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Mac OS X">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이팟">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이튠즈 스토어">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이포토">
+      <data key="d0">Product</data>
+    </node>
+    <node id="부트 캠프">
+      <data key="d0">Product</data>
+    </node>
+    <node id="앱 스토어">
+      <data key="d0">Product</data>
+    </node>
+    <node id="프로덕트 레드">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아이폰 7">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마이클 스핀들러">
+      <data key="d0">Person</data>
+    </node>
+    <node id="IBM">
+      <data key="d0">Company</data>
+    </node>
+    <node id="파워 매킨토시">
+      <data key="d0">Product</data>
+    </node>
+    <node id="길 아멜리오">
+      <data key="d0">Person</data>
+    </node>
+    <node id="아이북">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이패드">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이폰 4">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이폰 4S">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이폰 5">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이패드 미니">
+      <data key="d0">Product</data>
+    </node>
+    <node id="3세대 13인치 맥북 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마이클 스콧">
+      <data key="d0">Person</data>
+    </node>
+    <node id="마이크 마쿨라">
+      <data key="d0">Person</data>
+    </node>
+    <node id="존 스컬리">
+      <data key="d0">Person</data>
+    </node>
+    <node id="클로드 고브">
+      <data key="d0">Model</data>
+    </node>
+    <node id="코닝">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아이폰 SE">
+      <data key="d0">Product</data>
+    </node>
+    <node id="다리오 아모데이">
+      <data key="d0">Person</data>
+    </node>
+    <node id="팔란티어 테크놀로지스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="세계자연기금">
+      <data key="d0">Company</data>
+    </node>
+    <node id="지구를 위한 앱">
+      <data key="d0">Product</data>
+    </node>
+    <node id="인종 평등 및 정의 이니셔티브">
+      <data key="d0">Product</data>
+    </node>
+    <node id="애플 에너지">
+      <data key="d0">Company</data>
+    </node>
+    <node id="젠슨 황">
+      <data key="d0">Person</data>
+    </node>
+    <node id="엔비디아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="크리스 말라초스키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="썬 마이크로시스템즈">
+      <data key="d0">Company</data>
+    </node>
+    <node id="커티스 프림">
+      <data key="d0">Person</data>
+    </node>
+    <node id="블랙웰">
+      <data key="d0">Model</data>
+    </node>
+    <node id="트렌드마이크로">
+      <data key="d0">Company</data>
+    </node>
+    <node id="빌 댈리">
+      <data key="d0">Person</data>
+    </node>
+    <node id="크리스 마코프스키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="변경석">
+      <data key="d0">Person</data>
+    </node>
+    <node id="다니엘라 아모데이">
+      <data key="d0">Person</data>
+    </node>
+    <node id="클로드">
+      <data key="d0">Model</data>
+    </node>
+    <node id="클로드 2">
+      <data key="d0">Model</data>
+    </node>
+    <node id="클로드 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Opus">
+      <data key="d0">Model</data>
+    </node>
+    <node id="오픈AI o3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="o3-mini">
+      <data key="d0">Product</data>
+    </node>
+    <node id="o3">
+      <data key="d0">Product</data>
+    </node>
+    <node id="RTX A6000">
+      <data key="d0">Product</data>
+    </node>
+    <node id="드라이브 토어">
+      <data key="d0">Product</data>
+    </node>
+    <node id="A800 GPU">
+      <data key="d0">Product</data>
+    </node>
+    <node id="피카소">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Arm">
+      <data key="d0">Company</data>
+    </node>
+    <node id="소프트뱅크">
+      <data key="d0">Company</data>
+    </node>
+    <node id="오픈 AI 짐">
+      <data key="d0">Product</data>
+    </node>
+    <node id="유니버스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="지포스">
+      <data key="d0">Model</data>
+    </node>
+    <node id="RTX">
+      <data key="d0">Model</data>
+    </node>
+    <node id="NVS">
+      <data key="d0">Model</data>
+    </node>
+    <node id="테그라">
+      <data key="d0">Model</data>
+    </node>
+    <node id="엔포스">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GRID">
+      <data key="d0">Model</data>
+    </node>
+    <node id="드라이브">
+      <data key="d0">Model</data>
+    </node>
+    <node id="블루필드">
+      <data key="d0">Model</data>
+    </node>
+    <node id="DGX">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Maxine">
+      <data key="d0">Model</data>
+    </node>
+    <node id="에릭 묄러">
+      <data key="d0">Person</data>
+    </node>
+    <node id="위키미디어 공용">
+      <data key="d0">Company</data>
+    </node>
+    <node id="지미 웨일스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="위키미디어 재단">
+      <data key="d0">Company</data>
+    </node>
+    <node id="이리마지리 쇼이치로">
+      <data key="d0">Person</data>
+    </node>
+    <node id="세가">
+      <data key="d0">Company</data>
+    </node>
+    <node id="RIVA 128">
+      <data key="d0">Product</data>
+    </node>
+    <node id="RIVA TNT">
+      <data key="d0">Product</data>
+    </node>
+    <node id="지포스 256">
+      <data key="d0">Product</data>
+    </node>
+    <node id="지포스2 GTS">
+      <data key="d0">Product</data>
+    </node>
+    <node id="3dfx">
+      <data key="d0">Company</data>
+    </node>
+    <node id="엑슬루나">
+      <data key="d0">Company</data>
+    </node>
+    <node id="MediaQ">
+      <data key="d0">Company</data>
+    </node>
+    <node id="iReady">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Sony">
+      <data key="d0">Company</data>
+    </node>
+    <node id="ULI 일렉트로닉스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="하이브리드 그래픽스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="포털플레이어">
+      <data key="d0">Company</data>
+    </node>
+    <node id="에이지아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아이세라">
+      <data key="d0">Company</data>
+    </node>
+    <node id="PGI">
+      <data key="d0">Company</data>
+    </node>
+    <node id="엔비디아 실드">
+      <data key="d0">Product</data>
+    </node>
+    <node id="GTX 1080">
+      <data key="d0">Product</data>
+    </node>
+    <node id="GTX 1070">
+      <data key="d0">Product</data>
+    </node>
+    <node id="드라이브 PX 시리즈">
+      <data key="d0">Model</data>
+    </node>
+    <node id="토요타 자동차">
+      <data key="d0">Company</data>
+    </node>
+    <node id="드라이브 PX 2 AI">
+      <data key="d0">Model</data>
+    </node>
+    <node id="타이탄 V">
+      <data key="d0">Product</data>
+    </node>
+    <node id="쿼드로 GV100">
+      <data key="d0">Product</data>
+    </node>
+    <node id="RTX 2080 GPU">
+      <data key="d0">Product</data>
+    </node>
+    <node id="멜라녹스 테크놀로지스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="RTX 스튜디오 노트북">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마인크래프트 RTX">
+      <data key="d0">Product</data>
+    </node>
+    <node id="큐뮬러스 네트웍스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="A100 GPU 가속기">
+      <data key="d0">Product</data>
+    </node>
+    <node id="지포스 30 시리즈">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Zip2">
+      <data key="d0">Company</data>
+    </node>
+    <node id="컴팩">
+      <data key="d0">Company</data>
+    </node>
+    <node id="X.com">
+      <data key="d0">Company</data>
+    </node>
+    <node id="DOGE">
+      <data key="d0">Company</data>
+    </node>
+    <node id="트럼프 행정부">
+      <data key="d0">Company</data>
+    </node>
+    <node id="머스크 재단">
+      <data key="d0">Company</data>
+    </node>
+    <node id="마틴 에버하드">
+      <data key="d0">Person</data>
+    </node>
+    <node id="마크 타페닝">
+      <data key="d0">Person</data>
+    </node>
+    <node id="로드스터">
+      <data key="d0">Product</data>
+    </node>
+    <node id="모델 S">
+      <data key="d0">Model</data>
+    </node>
+    <node id="뉴럴링크">
+      <data key="d0">Company</data>
+    </node>
+    <node id="에롤 머스크">
+      <data key="d0">Person</data>
+    </node>
+    <node id="팀바바티 사립 자연보호구역">
+      <data key="d0">Company</data>
+    </node>
+    <node id="DNNResearch">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Safe Superintelligence Inc.">
+      <data key="d0">Company</data>
+    </node>
+    <node id="페이팔">
+      <data key="d0">Company</data>
+    </node>
+    <node id="스타링크">
+      <data key="d0">Model</data>
+    </node>
+    <node id="드래곤 우주선">
+      <data key="d0">Product</data>
+    </node>
+    <node id="팰컨 1">
+      <data key="d0">Product</data>
+    </node>
+    <node id="팰컨 9">
+      <data key="d0">Product</data>
+    </node>
+    <node id="팰컨 헤비">
+      <data key="d0">Product</data>
+    </node>
+    <node id="스타십">
+      <data key="d0">Product</data>
+    </node>
+    <node id="이베이">
+      <data key="d0">Company</data>
+    </node>
+    <node id="제미나이 2.5">
+      <data key="d0">Model</data>
+    </node>
+    <node id="삼성전자">
+      <data key="d0">Company</data>
+    </node>
+    <node id="제미나이 2.0 플래시 실험판">
+      <data key="d0">Product</data>
+    </node>
+    <node id="제미나이 2.0 프로">
+      <data key="d0">Product</data>
+    </node>
+    <node id="제미나이 로보틱스">
+      <data key="d0">Model</data>
+    </node>
+    <node id="제미나이 2.5 프로 실험판">
+      <data key="d0">Product</data>
+    </node>
+    <node id="LSI 로직">
+      <data key="d0">Company</data>
+    </node>
+    <node id="어드밴스트 마이크로 디바이시스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="제미나이 2.5 플래시">
+      <data key="d0">Model</data>
+    </node>
+    <node id="제미나이 3 프로">
+      <data key="d0">Model</data>
+    </node>
+    <node id="제미나이 3 딥 싱크">
+      <data key="d0">Model</data>
+    </node>
+    <node id="제미나이 3 플래시">
+      <data key="d0">Model</data>
+    </node>
+    <node id="나노 바나나">
+      <data key="d0">Model</data>
+    </node>
+    <node id="나노 바나나 프로">
+      <data key="d0">Model</data>
+    </node>
+    <node id="챗GPT 플러스">
+      <data key="d0">Product</data>
+    </node>
+    <node id="o1 모델">
+      <data key="d0">Model</data>
+    </node>
+    <node id="GPT 모델 시리즈">
+      <data key="d0">Model</data>
+    </node>
+    <node id="앤더릴 인더스트리">
+      <data key="d0">Company</data>
+    </node>
+    <node id="웨이모">
+      <data key="d0">Company</data>
+    </node>
+    <node id="카크래프트">
+      <data key="d0">Model</data>
+    </node>
+    <node id="세일즈포스닷컴">
+      <data key="d0">Company</data>
+    </node>
+    <node id="에이전트포스">
+      <data key="d0">Model</data>
+    </node>
+    <node id="앨런 AI 연구소">
+      <data key="d0">Company</data>
+    </node>
+    <node id="비전 언어 모델">
+      <data key="d0">Model</data>
+    </node>
+    <node id="AI 에이전트">
+      <data key="d0">Product</data>
+    </node>
+    <node id="멀티모달 에이전트 모델">
+      <data key="d0">Model</data>
+    </node>
+    <node id="미국 국방부">
+      <data key="d0">Company</data>
+    </node>
+    <node id="딥 리서치">
+      <data key="d0">Product</data>
+    </node>
+    <node id="아이린 솔라이만">
+      <data key="d0">Person</data>
+    </node>
+    <node id="영국 중심주의">
+      <data key="d0">Company</data>
+    </node>
+    <node id="조나스 시머라인">
+      <data key="d0">Person</data>
+    </node>
+    <node id="챗GPT 기반 교회 예배">
+      <data key="d0">Company</data>
+    </node>
+    <node id="피터 루이시 감독">
+      <data key="d0">Person</data>
+    </node>
+    <node id="더 라스트 스크린라이터">
+      <data key="d0">Product</data>
+    </node>
+    <node id="라미로 로사리오">
+      <data key="d0">Person</data>
+    </node>
+    <node id="브라질 포르투알레그리 시의회">
+      <data key="d0">Company</data>
+    </node>
+    <node id="해밀턴 소스마이어">
+      <data key="d0">Person</data>
+    </node>
+    <node id="케빈 뉴섬">
+      <data key="d0">Person</data>
+    </node>
+    <node id="미국 제11순회 항소법원">
+      <data key="d0">Company</data>
+    </node>
+    <node id="줄리안 힐">
+      <data key="d0">Person</data>
+    </node>
+    <node id="호주 국회">
+      <data key="d0">Company</data>
+    </node>
+    <node id="Brian Hood">
+      <data key="d0">Person</data>
+    </node>
+    <node id="호주 국립 은행">
+      <data key="d0">Company</data>
+    </node>
+    <node id="헤프번 샤이어 카운슬">
+      <data key="d0">Company</data>
+    </node>
+    <node id="배리 파인골드">
+      <data key="d0">Person</data>
+    </node>
+    <node id="매사추세츠주 상원">
+      <data key="d0">Company</data>
+    </node>
+    <node id="조시 S. 커틀러">
+      <data key="d0">Person</data>
+    </node>
+    <node id="매사추세츠주 하원">
+      <data key="d0">Company</data>
+    </node>
+    <node id="챗GPT와 같은 생성형 인공지능 모델을 규제하기 위해 챗GPT의 도움을 받아 작성된 법안">
+      <data key="d0">Product</data>
+    </node>
+    <node id="파키스탄의 한 재판소">
+      <data key="d0">Company</data>
+    </node>
+    <node id="챗GPT용 iOS 앱">
+      <data key="d0">Product</data>
+    </node>
+    <node id="안드로이드 앱">
+      <data key="d0">Product</data>
+    </node>
+    <node id="GPT 스토어">
+      <data key="d0">Product</data>
+    </node>
+    <node id="GPT-4 터보">
+      <data key="d0">Model</data>
+    </node>
+    <node id="o1-preview">
+      <data key="d0">Model</data>
+    </node>
+    <node id="o1">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Claude Code">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Claude Cowork">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Claude Design">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Claude Science">
+      <data key="d0">Model</data>
+    </node>
+    <node id="클로드 섀넌">
+      <data key="d0">Person</data>
+    </node>
+    <node id="알렉산더 타라샨스키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="Opus 4.7">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Opus 4.8">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Claude Mythos 5">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Fable 5">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Claude Sonnet 5">
+      <data key="d0">Product</data>
+    </node>
+    <node id="골든 게이트 클로드">
+      <data key="d0">Model</data>
+    </node>
+    <node id="니콜라스 칼리니">
+      <data key="d0">Person</data>
+    </node>
+    <node id="NASA">
+      <data key="d0">Company</data>
+    </node>
+    <node id="스탠포드 인간 중심 인공 지능 연구소">
+      <data key="d0">Company</data>
+    </node>
+    <node id="파운데이션 모델 연구 센터">
+      <data key="d0">Company</data>
+    </node>
+    <node id="클로드 3.5 Sonnet">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Claude Sonnet 4">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Opus 4.1">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Haiku 4.5">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Opus 4.5">
+      <data key="d0">Model</data>
+    </node>
+    <node id="Opus 4.6">
+      <data key="d0">Model</data>
+    </node>
+    <node id="미국 정보 및 국방 기관">
+      <data key="d0">Company</data>
+    </node>
+    <node id="미군">
+      <data key="d0">Company</data>
+    </node>
+    <node id="FBI">
+      <data key="d0">Company</data>
+    </node>
+    <node id="미국 비밀경호국">
+      <data key="d0">Company</data>
+    </node>
+    <node id="펜타곤">
+      <data key="d0">Company</data>
+    </node>
+    <node id="국방부">
+      <data key="d0">Company</data>
+    </node>
+    <node id="모델 3">
+      <data key="d0">Model</data>
+    </node>
+    <node id="모델 X">
+      <data key="d0">Model</data>
+    </node>
+    <node id="모델 Y">
+      <data key="d0">Model</data>
+    </node>
+    <node id="사이버트럭">
+      <data key="d0">Model</data>
+    </node>
+    <node id="세미 트럭">
+      <data key="d0">Model</data>
+    </node>
+    <node id="메가팩">
+      <data key="d0">Product</data>
+    </node>
+    <node id="파워월">
+      <data key="d0">Product</data>
+    </node>
+    <node id="솔라 루프">
+      <data key="d0">Product</data>
+    </node>
+    <node id="마화텅">
+      <data key="d0">Person</data>
+    </node>
+    <node id="텐센트">
+      <data key="d0">Company</data>
+    </node>
+    <node id="장즈둥">
+      <data key="d0">Person</data>
+    </node>
+    <node id="라이엇 게임즈">
+      <data key="d0">Company</data>
+    </node>
+    <node id="카카오">
+      <data key="d0">Company</data>
+    </node>
+    <node id="에픽게임즈">
+      <data key="d0">Company</data>
+    </node>
+    <node id="슈퍼셀">
+      <data key="d0">Company</data>
+    </node>
+    <node id="유비소프트">
+      <data key="d0">Company</data>
+    </node>
+    <node id="디스코드">
+      <data key="d0">Company</data>
+    </node>
+    <node id="레딧">
+      <data key="d0">Company</data>
+    </node>
+    <node id="텐센트코리아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="CJ넷마블">
+      <data key="d0">Company</data>
+    </node>
+    <node id="B. C. 포브스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="포브스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="스티브 포브스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="셰리 필립스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="포브스 미디어">
+      <data key="d0">Company</data>
+    </node>
+    <node id="인티그레이티드 웨일 미디어 인베스트먼트">
+      <data key="d0">Company</data>
+    </node>
+    <node id="허깅 페이스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="SmolVLM">
+      <data key="d0">Model</data>
+    </node>
+    <node id="아라빈드 스리니바스">
+      <data key="d0">Person</data>
+    </node>
+    <node id="퍼플렉시티 (검색 엔진)">
+      <data key="d0">Company</data>
+    </node>
+    <node id="데니스 야라츠">
+      <data key="d0">Person</data>
+    </node>
+    <node id="조니 호">
+      <data key="d0">Person</data>
+    </node>
+    <node id="앤디 콘윈스키">
+      <data key="d0">Person</data>
+    </node>
+    <node id="퍼플렉시티 페이지">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Sonar">
+      <data key="d0">Model</data>
+    </node>
+    <node id="R1 1776">
+      <data key="d0">Model</data>
+    </node>
+    <node id="크리스티아누 호날두">
+      <data key="d0">Person</data>
+    </node>
+    <node id="포브스8">
+      <data key="d0">Product</data>
+    </node>
+    <node id="포브스 코리아">
+      <data key="d0">Company</data>
+    </node>
+    <node id="중앙일보">
+      <data key="d0">Company</data>
+    </node>
+    <node id="중앙일보S">
+      <data key="d0">Company</data>
+    </node>
+    <node id="구글 브레인">
+      <data key="d0">Company</data>
+    </node>
+    <node id="퍼플렉시티 어시스턴트">
+      <data key="d0">Product</data>
+    </node>
+    <node id="코멧">
+      <data key="d0">Product</data>
+    </node>
+    <node id="Perplexity Solved Solutions">
+      <data key="d0">Company</data>
+    </node>
+    <node id="바이낸스">
+      <data key="d0">Company</data>
+    </node>
+    <node id="오스틴 러셀">
+      <data key="d0">Person</data>
+    </node>
+    <node id="포브스 라이프">
+      <data key="d0">Product</data>
+    </node>
+    <node id="포브스 트래블 가이드">
+      <data key="d0">Product</data>
+    </node>
+    <node id="스트림">
+      <data key="d0">Model</data>
+    </node>
+    <node id="포브스우먼">
+      <data key="d0">Product</data>
+    </node>
+    <node id="맥스 레브친">
+      <data key="d0">Person</data>
+    </node>
+    <node id="칸피니티">
+      <data key="d0">Company</data>
+    </node>
+    <node id="피터 틸">
+      <data key="d0">Person</data>
+    </node>
+    <node id="루크 노섹">
+      <data key="d0">Person</data>
+    </node>
+    <node id="켄 하워리">
+      <data key="d0">Person</data>
+    </node>
+    <node id="엑스 닷컴">
+      <data key="d0">Company</data>
+    </node>
+    <node id="아이언펄">
+      <data key="d0">Company</data>
+    </node>
+    <node id="브레인트리">
+      <data key="d0">Company</data>
+    </node>
+    <node id="댄 슐먼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="존 도나호">
+      <data key="d0">Person</data>
+    </node>
+    <node id="스티브 첸">
+      <data key="d0">Person</data>
+    </node>
+    <node id="채드 헐리">
+      <data key="d0">Person</data>
+    </node>
+    <node id="레이드 호프먼">
+      <data key="d0">Person</data>
+    </node>
+    <node id="클레망 들랑그">
+      <data key="d0">Person</data>
+    </node>
+    <node id="줄리앙 쇼몽">
+      <data key="d0">Person</data>
+    </node>
+    <node id="토마스 울프">
+      <data key="d0">Person</data>
+    </node>
+    <node id="BLOOM">
+      <data key="d0">Model</data>
+    </node>
+    <node id="폴렌 로보틱스">
+      <data key="d0">Company</data>
+    </node>
+    <edge source="오픈AI" target="GPT-4o" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">GPT-4;GPT-4o</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4o" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4o</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4.1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4.1</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4.1 mini" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4.1</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4.1 nano" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4.1</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">GPT (언어 모델);GPT-4;챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">GPT-2;GPT-3;대형 언어 모델</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-3" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-3</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-3" id="2">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-3</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-3" id="3">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-2" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">DALL-E;GPT-2</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-2" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">GPT-2;대형 언어 모델</data>
+    </edge>
+    <edge source="오픈AI" target="LMSYS" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4o</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-5.2" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5.2</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-5.2" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5.2</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-5" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-5" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">4</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="오픈AI" target="챗GPT" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">5</data>
+      <data key="d3">GPT (언어 모델);GPT-5;대형 언어 모델;챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="챗GPT" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-OSS" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="오픈AI" target="DALL-E" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="오픈AI" target="DALL-E 2" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="오픈AI" target="DALL-E 3" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="오픈AI" target="DALL-E 3" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-1" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="오픈AI" target="GPT" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT (언어 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="InstructGPT" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT (언어 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="마이크로소프트" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT (언어 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="OpenAI Gym" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">OpenAI</data>
+    </edge>
+    <edge source="오픈AI" target="Universe" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">OpenAI</data>
+    </edge>
+    <edge source="오픈AI" target="오픈AI 코덱스" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">깃허브 코파일럿</data>
+    </edge>
+    <edge source="오픈AI" target="소라" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="소라" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="소라" id="2">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="소라 2" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="샘 올트먼" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="디즈니" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="월트 디즈니 컴퍼니" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">소라 (텍스트-비디오 모델)</data>
+    </edge>
+    <edge source="오픈AI" target="오픈AI o3" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">오픈AI o3</data>
+    </edge>
+    <edge source="오픈AI" target="o3-mini" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">오픈AI o3</data>
+    </edge>
+    <edge source="오픈AI" target="o3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">오픈AI o3</data>
+    </edge>
+    <edge source="오픈AI" target="오픈 AI 짐" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">오픈AI</data>
+    </edge>
+    <edge source="오픈AI" target="유니버스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">오픈AI</data>
+    </edge>
+    <edge source="오픈AI" target="Safe Superintelligence Inc." id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">일리야 수츠케버</data>
+    </edge>
+    <edge source="오픈AI" target="챗GPT 플러스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="o1 모델" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="애플" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="딥 리서치" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4.5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="챗GPT용 iOS 앱" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="안드로이드 앱" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="GPT 스토어" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="GPT-4 터보" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="o1-preview" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="o1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="오픈AI" target="o1" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="GPT-4o" target="GPT-4" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4</data>
+    </edge>
+    <edge source="샘 알트먼" target="오픈AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4.5</data>
+    </edge>
+    <edge source="GPT-4.5" target="오픈AI" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4.5</data>
+    </edge>
+    <edge source="GPT-4.5" target="마이크로소프트 애저" id="0">
+      <data key="d1">RUNS_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-4.5</data>
+    </edge>
+    <edge source="마이크로소프트" target="GPT-3" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-3</data>
+    </edge>
+    <edge source="마이크로소프트" target="오픈AI" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">2</data>
+      <data key="d3">GPT-5;마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="오픈AI" id="1">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">3</data>
+      <data key="d3">마이크로소프트;마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="오픈AI" id="2">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="깃허브" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">깃허브 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="깃허브" id="1">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 마우스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 오피스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 3.0" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 95" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 CE 1.0" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="제너럴 일렉트릭" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="어펌드 네트웍스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="제니맥스 미디어" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="뉘앙스 커뮤니케이션스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="액티비전 블리자드" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 코파일럿" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 코파일럿" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 XP" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="엑스박스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="엑스박스 360" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="준 디지털 미디어 플레이어" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 비스타" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 오피스 2007" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="애저 서비스 플랫폼" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 7" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 폰 OS" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="노키아" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="노키아" id="1">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="Microsoft 365 Chat" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="코파일럿" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 코파일럿 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="macOS용 네이티브 코파일럿 앱" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="코파일럿 보이스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="코파일럿 랩스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트" target="코파일럿 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="G42" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="인도네시아" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="UW-밀워키 AI 공동 혁신 연구소" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="블랙록" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="사티아 나델라" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="그렉 브로크만" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="샘 올트먼" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 10" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 서버 2016" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="Hexadite" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="파워셸 코어 6.0" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 10 S" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="애저 스피어" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="서피스 고" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 팀즈" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="도요타 통상" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="애저 거버먼트 시크릿" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="프로젝트 Mu" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 폼과 WPF" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 엣지" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="스카이프" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="야머" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="모장" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 8" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 8 소비자 프리뷰" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="서피스" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="Outlook.com" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 서버 2012" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="윈도우 폰 8" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="특허 추적기" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="키넥트" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="마이크로소프트 서피스 허브" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="마이크로소프트" target="애플" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="마이크로소프트" target="멀티모달 에이전트 모델" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="Latitude" target="AI Dungeon" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-2</data>
+    </edge>
+    <edge source="Latitude" target="AI Dungeon" id="1">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-2</data>
+    </edge>
+    <edge source="미라 무라티" target="오픈AI" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">3</data>
+      <data key="d3">GPT-4o;미라 무라티</data>
+    </edge>
+    <edge source="미라 무라티" target="오픈AI" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">미라 무라티</data>
+    </edge>
+    <edge source="미라 무라티" target="테슬라 (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">미라 무라티</data>
+    </edge>
+    <edge source="샘 올트먼" target="오픈AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">GPT-4o;제미니 (언어 모델)</data>
+    </edge>
+    <edge source="샘 올트먼" target="오픈AI" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="샘 올트먼" target="오픈AI" id="2">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">OpenAI;오픈AI</data>
+    </edge>
+    <edge source="피지 시모" target="오픈AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5.2</data>
+    </edge>
+    <edge source="애런 레비" target="박스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5.2</data>
+    </edge>
+    <edge source="챗GPT" target="오픈AI" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="챗GPT" target="오픈AI" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="챗GPT" target="GPT 모델 시리즈" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="챗GPT" target="GPT-4" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="챗GPT" target="챗GPT와 같은 생성형 인공지능 모델을 규제하기 위해 챗GPT의 도움을 받아 작성된 법안" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="챗GPT" target="파키스탄의 한 재판소" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="DALL-E" target="GPT-3" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="DALL-E 2" target="DALL-E" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">DALL-E</data>
+    </edge>
+    <edge source="일론 머스크" target="정부효율부" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="일론 머스크" target="xAI (기업)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">4</data>
+      <data key="d3">Grok;XAI (기업);일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="xAI (기업)" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">4</data>
+      <data key="d3">Grok;XAI (기업);일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="xAI (기업)" id="2">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">Grok;구글 바드</data>
+    </edge>
+    <edge source="일론 머스크" target="오픈AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">6</data>
+      <data key="d3">Grok;XAI (기업);일론 머스크;제미니 (언어 모델);챗GPT</data>
+    </edge>
+    <edge source="일론 머스크" target="오픈AI" id="1">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">5</data>
+      <data key="d3">OpenAI;오픈AI;일론 머스크;챗GPT</data>
+    </edge>
+    <edge source="일론 머스크" target="X (소셜 네트워크)" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">X (소셜 네트워크);일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="X (소셜 네트워크)" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">X (소셜 네트워크);일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="Zip2" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="X.com" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">3</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="X.com" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="테슬라 (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">4</data>
+      <data key="d3">일론 머스크;테슬라 (기업)</data>
+    </edge>
+    <edge source="일론 머스크" target="테슬라 (기업)" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">6</data>
+      <data key="d3">일론 머스크;테슬라 (기업)</data>
+    </edge>
+    <edge source="일론 머스크" target="테슬라 (기업)" id="2">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="DOGE" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="DOGE" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="트럼프 행정부" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">3</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="스페이스X" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="스페이스X" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="스페이스X" id="2">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="머스크 재단" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="로드스터" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="뉴럴링크" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="페이팔" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="일론 머스크" target="엑스 닷컴" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="일론 머스크" target="엑스 닷컴" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="xAI (기업)" target="Grok" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="Grok" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">Grok;XAI (기업)</data>
+    </edge>
+    <edge source="xAI (기업)" target="Aurora" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="Aurora" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="API" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록 웹 및 iOS 앱" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록 앱의 안드로이드 버전" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록3" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록3 미니" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록3 리즈닝" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록4" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록코드 패스트1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그록4.1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="앤트로픽" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="구글" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="오픈AI" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그로키피디아" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="xAI (기업)" target="그로키피디아" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">Grok;일론 머스크</data>
+    </edge>
+    <edge source="Grok" target="제미니 (언어 모델)" id="0">
+      <data key="d1">RUNS_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="Black Forest Labs" target="Flux" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="애플" target="오픈AI" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="애플" target="매킨토시" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="매킨토시" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="매킨토시 512K" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="레이저라이터" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="페이지메이커" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="시스템 7" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="파워북" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="M1" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="애플 비전 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="애플 페이 레이터" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="픽셀메이터" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="애플 I" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="리사" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="NeXT" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="맥북 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이맥" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="맥 미니" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="비츠 일렉트로닉스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="샤잠" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="팀 쿡" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">3</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="M2" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아스타르테" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="낫띵 리얼" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="이매직" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이무비" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="DVD 스튜디오 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이튠즈" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="Mac OS X" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이팟" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이튠즈 스토어" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이포토" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="부트 캠프" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="앱 스토어" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="프로덕트 레드" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이폰 7" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="IBM" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="모토로라" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="파워 매킨토시" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이북" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이패드" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이폰 4" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이폰 4S" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이폰 5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이패드 미니" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="3세대 13인치 맥북 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="코닝" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="아이폰 SE" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="세계자연기금" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="지구를 위한 앱" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="인종 평등 및 정의 이니셔티브" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="애플 에너지" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="애플" target="애플 에너지" id="1">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="우버" target="GPT-5" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="깃랩" target="GPT-5" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="BBVA" target="GPT-5" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="암젠" target="GPT-5" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="로우스" target="GPT-5" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="노션" target="GPT-5" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">GPT-5</data>
+    </edge>
+    <edge source="앤트로픽" target="클로드 고브" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">앤트로픽;클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="팔란티어 테크놀로지스" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">2</data>
+      <data key="d3">앤트로픽;클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="아마존 웹 서비스" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="앤트로픽" target="클로드" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">4</data>
+      <data key="d3">앤트로픽;클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="클로드" id="1">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">앤트로픽;클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Code" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Cowork" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Design" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Science" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Opus 4.7" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Opus 4.8" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Mythos 5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Fable 5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Sonnet 5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="골든 게이트 클로드" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="니콜라스 칼리니" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="클로드 2" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="클로드 3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="클로드 3.5 Sonnet" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Claude Sonnet 4" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Opus 4.1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Haiku 4.5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Opus 4.5" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="앤트로픽" target="Opus 4.6" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="구글 바드" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">3</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="구글 바드" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="구글 어시스턴트" id="0">
+      <data key="d1">RUNS_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="구글 딥마인드" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 딥마인드;딥마인드</data>
+    </edge>
+    <edge source="구글" target="이마젠 3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="제미니 (언어 모델)" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">4</data>
+      <data key="d3">구글 바드;제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미니 (언어 모델)" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">4</data>
+      <data key="d3">구글 바드;제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미니 (언어 모델)" id="2">
+      <data key="d1">RUNS_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="Gemini Advanced with Ultra 1.0" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="스택 오버플로" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="Ultra 1.0" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="Gemini Advanced" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="Gemini CLI" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="제미나이 라이브" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="구글" target="YouTube" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="더블클릭" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="모토로라 인코퍼레이티드" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="모토로라" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="모토로라" id="1">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="Gmail" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="Google 사전" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="Google 리더" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="iGoogle" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="닌텐도" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="구글" target="트랜스포머" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">대형 언어 모델</data>
+    </edge>
+    <edge source="구글" target="DNNresearch" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="구글" target="딥마인드 테크놀로지스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="구글" target="구글 크롬" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">순다르 피차이</data>
+    </edge>
+    <edge source="구글" target="앤트로픽" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="구글" target="앤트로픽" id="1">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="구글" target="엔비디아" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="구글" target="삼성전자" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 2.0 플래시 실험판" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 2.0 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 로보틱스" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 2.5 프로 실험판" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="애플" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 2.5 플래시" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 3 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 3 딥 싱크" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="제미나이 3 플래시" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="나노 바나나" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="나노 바나나 프로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글" target="마이크로소프트" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="피트 헤그세스" target="스페이스X" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="스페이스X" target="스타링크" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="스페이스X" target="드래곤 우주선" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="스페이스X" target="팰컨 1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="스페이스X" target="팰컨 9" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="스페이스X" target="팰컨 헤비" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="스페이스X" target="스타십" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="제미니 (언어 모델)" target="구글" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 바드;제미니 (언어 모델)</data>
+    </edge>
+    <edge source="도날트 투스크" target="xAI (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="마우고자타 투스크" target="xAI (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="야로스와프 카친스키" target="xAI (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="마테우시 모라비에츠키" target="xAI (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="라파우 트샤스코프스키" target="xAI (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="그로키피디아" target="위키백과" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">Grok</data>
+    </edge>
+    <edge source="애나 데이비드" target="X (소셜 네트워크)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="존 에드워즈" target="X (소셜 네트워크)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="버락 오바마" target="X (소셜 네트워크)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="구글 코리아" target="구글" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="일리야 수츠케버" target="오픈AI" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">OpenAI;일리야 수츠케버</data>
+    </edge>
+    <edge source="일리야 수츠케버" target="오픈AI" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">오픈AI;일리야 수츠케버</data>
+    </edge>
+    <edge source="일리야 수츠케버" target="구글" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">일리야 수츠케버</data>
+    </edge>
+    <edge source="일리야 수츠케버" target="DNNResearch" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">일리야 수츠케버</data>
+    </edge>
+    <edge source="일리야 수츠케버" target="Safe Superintelligence Inc." id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">일리야 수츠케버</data>
+    </edge>
+    <edge source="그레그 브로크먼" target="오픈AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">3</data>
+      <data key="d3">OpenAI;오픈AI</data>
+    </edge>
+    <edge source="에마드 모스타크" target="Stability AI" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">Stability AI</data>
+    </edge>
+    <edge source="에마드 모스타크" target="Stability AI" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">Stability AI</data>
+    </edge>
+    <edge source="Stability AI" target="스테이블 디퓨전" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">Stability AI</data>
+    </edge>
+    <edge source="Stability AI" target="스테이블 디퓨전" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">Stability AI;스테이블 디퓨전</data>
+    </edge>
+    <edge source="Stability AI" target="Stable Audio Open" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">Stability AI</data>
+    </edge>
+    <edge source="Stability AI" target="LAION" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">스테이블 디퓨전</data>
+    </edge>
+    <edge source="Stability AI" target="LAION" id="1">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">스테이블 디퓨전</data>
+    </edge>
+    <edge source="사이러스 호즈" target="Stability AI" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">Stability AI</data>
+    </edge>
+    <edge source="프렘 아카라주" target="Stability AI" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">Stability AI</data>
+    </edge>
+    <edge source="스테이블 디퓨전" target="스테이블 디퓨전 XL" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">스테이블 디퓨전</data>
+    </edge>
+    <edge source="스테이블 디퓨전" target="LAION-5B" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">스테이블 디퓨전</data>
+    </edge>
+    <edge source="이고르 바부쉬킨" target="xAI (기업)" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">XAI (기업)</data>
+    </edge>
+    <edge source="잭 도시" target="X (소셜 네트워크)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="비즈 스톤" target="X (소셜 네트워크)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="에번 윌리엄스" target="X (소셜 네트워크)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="에번 윌리엄스" target="오데오" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="노아 글래스" target="X (소셜 네트워크)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">X (소셜 네트워크)</data>
+    </edge>
+    <edge source="잭 크라우칙" target="구글" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="순다르 피차이" target="구글" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 바드;순다르 피차이</data>
+    </edge>
+    <edge source="순다르 피차이" target="구글" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">순다르 피차이</data>
+    </edge>
+    <edge source="데미스 허사비스" target="구글 딥마인드" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 딥마인드;딥마인드</data>
+    </edge>
+    <edge source="데미스 허사비스" target="구글 딥마인드" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">3</data>
+      <data key="d3">구글 딥마인드;딥마인드;제미니 (언어 모델)</data>
+    </edge>
+    <edge source="구글 딥마인드" target="알파고" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 딥마인드;딥마인드</data>
+    </edge>
+    <edge source="구글 딥마인드" target="알파스타" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 딥마인드;딥마인드</data>
+    </edge>
+    <edge source="구글 딥마인드" target="제미니 (언어 모델)" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="피차이" target="구글" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">구글 바드</data>
+    </edge>
+    <edge source="래리 페이지" target="구글" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">구글</data>
+    </edge>
+    <edge source="세르게이 브린" target="구글" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">구글;세르게이 브린</data>
+    </edge>
+    <edge source="세르게이 브린" target="구글" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">세르게이 브린</data>
+    </edge>
+    <edge source="세르게이 브린" target="구글" id="2">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="제프리 힌튼" target="ImageNet 대회" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="제프리 힌튼" target="구글" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="George Dahl" target="Merck Molecular Activity Challenge" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="Sepp Hochreiter" target="Tox21 Data Challenge" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="사티아 나델라" target="마이크로소프트" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">4</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="빌 게이츠" target="마이크로소프트" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="빌 게이츠" target="마이크로소프트" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">3</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="빌 게이츠" target="마이크로소프트" id="2">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="폴 앨런" target="마이크로소프트" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="폴 앨런" target="마이크로소프트" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="얀 르쿤" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="라쏘" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 (기업)</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="무비 젠" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="무비 젠" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="AI 데이터 센터" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="인스타그램" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">4</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="WhatsApp" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">4</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="리브라" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="찬 저커버그 이니셔티브" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="레이밴 스토리" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="라마 2" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">4</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="스레드" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="마크 저커버그" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="마크 저커버그" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="오큘러스 헤드셋" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="오리온" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="오나보" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="오큘러스 VR" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="Beat Games" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="기피" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="Kustomer" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="Lofelt" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="사라 윈-윌리엄스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="페이스북과 인스타그램의 뉴스 콘텐츠" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="메타 플랫폼스" target="스케일 AI" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="앤드류 응" target="바이두" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">딥 러닝</data>
+    </edge>
+    <edge source="바이두" target="드라이브 PX 2 AI" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="깃허브" target="깃허브 코파일럿" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">6</data>
+      <data key="d3">깃허브 코파일럿</data>
+    </edge>
+    <edge source="깃허브 코파일럿" target="오픈AI 코덱스" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">깃허브 코파일럿</data>
+    </edge>
+    <edge source="해리슨 체이스" target="로버스트 인텔리전스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="해리슨 체이스" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="LangServe" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="LangSmith" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="LangGraph" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="아마존" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="구글" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="랭체인" target="마이크로소프트" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">랭체인</data>
+    </edge>
+    <edge source="아마존" target="홀 푸드 마켓" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">3</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="DC 코믹스" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">2</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="Shelfari" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="Souq.com" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="아스트로" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="RXPass" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="아마존 웹 서비스" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="미국 우정청" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="나이키" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="애플" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="앤트로픽" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">2</data>
+      <data key="d3">아마존 (기업);앤트로픽</data>
+    </edge>
+    <edge source="아마존" target="앤트로픽" id="1">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="아마존" target="AmazonBasics" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="오더블" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="굿리즈" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="링" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="아마존" target="트위치" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="마이크로소프트 코파일럿" target="마이크로소프트" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마이크로소프트 365 Copilot" target="마이크로소프트" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="Windows Copilot" target="마이크로소프트" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="빙챗" target="마이크로소프트" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="존 프리드먼" target="마이크로소프트" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트 코파일럿</data>
+    </edge>
+    <edge source="마크 저커버그" target="메타 플랫폼스" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">마크 저커버그</data>
+    </edge>
+    <edge source="마크 저커버그" target="메타 플랫폼스" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">13</data>
+      <data key="d3">마크 저커버그;메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="마크 저커버그" target="메타 플랫폼스" id="2">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">7</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="마크 저커버그" target="인텔리전트 미디어 그룹" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마크 저커버그</data>
+    </edge>
+    <edge source="인텔리전트 미디어 그룹" target="시냅스 미디어 플레이어" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">마크 저커버그</data>
+    </edge>
+    <edge source="스티브 발머" target="마이크로소프트" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="존 W. 톰슨" target="마이크로소프트" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">마이크로소프트</data>
+    </edge>
+    <edge source="리브라" target="디엠" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="셰릴 샌드버그" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="하비에르 올리반" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="닉 클레그 경" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="수잔 리" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="앤드루 보스워스" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="데이비드 위너" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="크리스 콕스" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="제니퍼 길리언 뉴스태드" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">메타 (기업);메타 플랫폼스</data>
+    </edge>
+    <edge source="프랜시스 하우건" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 (기업)</data>
+    </edge>
+    <edge source="도널드 트럼프" target="메타 플랫폼스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 (기업)</data>
+    </edge>
+    <edge source="데이비드 홀츠" target="Midjourney" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">미드저니</data>
+    </edge>
+    <edge source="페이스북 인도 온라인 서비스스 비티 리미티드" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="로드스터" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="모델 S" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="모델 S" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="모델 3" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="모델 X" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="모델 Y" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="사이버트럭" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="세미 트럭" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="메가팩" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="파워월" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="테슬라 (기업)" target="솔라 루프" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">테슬라 (기업)</data>
+    </edge>
+    <edge source="LAION" target="Stability AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">스테이블 디퓨전</data>
+    </edge>
+    <edge source="스케일 AI" target="앤더릴 인더스트리" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="스케일 AI" target="마이크로소프트" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="스케일 AI" target="미국 국방부" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="조르다나 커틀러" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">메타 플랫폼스</data>
+    </edge>
+    <edge source="제프 베이조스" target="아마존" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="제프 베이조스" target="아마존" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="제프 베이조스" target="아마존닷컴" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mistral Small 3.1" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mistral Small 3.1" id="1">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mistral Medium 3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Magistral Small" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Magistral Medium" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mistral Large 3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Ministral 3" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Devstral 2" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Devstral Small 2" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mistral Vibe" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Le Chat" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">2</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mistral 7B" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="Mixtral 8x7B" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="마이크로소프트" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="미스트랄 AI" target="CMA CGM" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="아르튀르 멘쉬" target="미스트랄 AI" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="아르튀르 멘쉬" target="구글 딥마인드" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="기욤 램플" target="미스트랄 AI" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="기욤 램플" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="티모테 라크루아" target="미스트랄 AI" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="티모테 라크루아" target="메타 플랫폼스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">미스트랄 AI</data>
+    </edge>
+    <edge source="앤디 재시" target="아마존" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="Annapurna Labs" target="Amazon Web Services" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="Brilliance Audio" target="Amazon" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="코믹솔로지" target="Amazon" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="eero" target="Amazon" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="Health Navigator" target="Amazon" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="Junglee" target="Amazon" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="Kuiper Systems" target="Amazon" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="Lab126" target="Amazon" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="스티브 잡스" target="애플" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">3</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="스티브 잡스" target="애플" id="1">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="스티브 잡스" target="애플" id="2">
+      <data key="d1">LEADS</data>
+      <data key="d2">6</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="스티브 잡스" target="NeXT" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="스티브 잡스" target="애플 컴퓨터 컴퍼니" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="스티브 워즈니악" target="애플" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">3</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="스티브 워즈니악" target="애플 컴퓨터 컴퍼니" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="오티스 챈들러" target="굿리즈" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="엘리자베스 쿠리" target="굿리즈" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="제이미 시미노프" target="링" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">아마존 (기업)</data>
+    </edge>
+    <edge source="로널드 웨인" target="애플 컴퓨터 컴퍼니" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="팀 쿡" target="애플" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">3</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="팀 쿡" target="애플" id="1">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="론 존슨" target="애플" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="마이클 스핀들러" target="애플" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="길 아멜리오" target="애플" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="마이클 스콧" target="애플" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="마이크 마쿨라" target="애플" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="존 스컬리" target="애플" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">애플</data>
+    </edge>
+    <edge source="다리오 아모데이" target="앤트로픽" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">2</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="다리오 아모데이" target="앤트로픽" id="1">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="젠슨 황" target="엔비디아" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">3</data>
+      <data key="d3">엔비디아;젠슨 황</data>
+    </edge>
+    <edge source="젠슨 황" target="엔비디아" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">3</data>
+      <data key="d3">엔비디아;젠슨 황</data>
+    </edge>
+    <edge source="젠슨 황" target="LSI 로직" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">젠슨 황</data>
+    </edge>
+    <edge source="젠슨 황" target="어드밴스트 마이크로 디바이시스" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">젠슨 황</data>
+    </edge>
+    <edge source="엔비디아" target="블랙웰" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="트렌드마이크로" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="RTX A6000" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="드라이브 토어" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="A800 GPU" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="피카소" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="Arm" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="지포스" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="RTX" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="NVS" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="테그라" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="테슬라 (기업)" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="엔포스" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="GRID" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="드라이브" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="블루필드" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="DGX" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="Maxine" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="RIVA 128" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="RIVA TNT" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="지포스 256" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="지포스2 GTS" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="3dfx" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="엑슬루나" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="MediaQ" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="iReady" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="Sony" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="ULI 일렉트로닉스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="하이브리드 그래픽스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="포털플레이어" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="에이지아" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="아이세라" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="PGI" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="엔비디아 실드" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="GTX 1080" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="GTX 1070" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="드라이브 PX 시리즈" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="토요타 자동차" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="바이두" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">2</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="타이탄 V" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="쿼드로 GV100" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="RTX 2080 GPU" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="멜라녹스 테크놀로지스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="RTX 스튜디오 노트북" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="마인크래프트 RTX" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="큐뮬러스 네트웍스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="A100 GPU 가속기" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="지포스 30 시리즈" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="엔비디아" target="AI 에이전트" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="크리스 말라초스키" target="썬 마이크로시스템즈" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="커티스 프림" target="썬 마이크로시스템즈" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="빌 댈리" target="엔비디아" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="크리스 마코프스키" target="엔비디아" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="변경석" target="엔비디아" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="다니엘라 아모데이" target="앤트로픽" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="다니엘라 아모데이" target="앤트로픽" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="클로드" target="Claude Code" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="Claude Cowork" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="미국 정보 및 국방 기관" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="미군" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="FBI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="미국 비밀경호국" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="펜타곤" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="트럼프 행정부" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드" target="국방부" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드 2" target="클로드" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="클로드 3" target="Opus" id="0">
+      <data key="d1">BUILT_ON</data>
+      <data key="d2">1</data>
+      <data key="d3">앤트로픽</data>
+    </edge>
+    <edge source="소프트뱅크" target="Arm" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="에릭 묄러" target="위키미디어 공용" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">위키미디어 공용</data>
+    </edge>
+    <edge source="지미 웨일스" target="위키미디어 재단" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">위키미디어 공용</data>
+    </edge>
+    <edge source="이리마지리 쇼이치로" target="세가" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="이리마지리 쇼이치로" target="엔비디아" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">엔비디아</data>
+    </edge>
+    <edge source="Zip2" target="컴팩" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="마틴 에버하드" target="테슬라 (기업)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크;테슬라 (기업)</data>
+    </edge>
+    <edge source="마크 타페닝" target="테슬라 (기업)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크;테슬라 (기업)</data>
+    </edge>
+    <edge source="에롤 머스크" target="팀바바티 사립 자연보호구역" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">일론 머스크</data>
+    </edge>
+    <edge source="페이팔" target="이베이" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">2</data>
+      <data key="d3">일론 머스크;페이팔</data>
+    </edge>
+    <edge source="페이팔" target="이베이" id="1">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">2</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="아이언펄" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="브레인트리" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="댄 슐먼" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="존 도나호" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="피터 틸" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="일론 머스크" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="맥스 레브친" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="스티브 첸" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="채드 헐리" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="페이팔" target="레이드 호프먼" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="제미나이 2.5" target="구글" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">제미니 (언어 모델)</data>
+    </edge>
+    <edge source="웨이모" target="카크래프트" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="세일즈포스닷컴" target="에이전트포스" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="앨런 AI 연구소" target="비전 언어 모델" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">지능형 에이전트</data>
+    </edge>
+    <edge source="아이린 솔라이만" target="영국 중심주의" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="조나스 시머라인" target="챗GPT 기반 교회 예배" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="피터 루이시 감독" target="더 라스트 스크린라이터" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="라미로 로사리오" target="브라질 포르투알레그리 시의회" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="해밀턴 소스마이어" target="브라질 포르투알레그리 시의회" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="케빈 뉴섬" target="미국 제11순회 항소법원" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="줄리안 힐" target="호주 국회" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="Brian Hood" target="호주 국립 은행" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="Brian Hood" target="헤프번 샤이어 카운슬" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="배리 파인골드" target="매사추세츠주 상원" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="조시 S. 커틀러" target="매사추세츠주 하원" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">챗GPT</data>
+    </edge>
+    <edge source="클로드 섀넌" target="클로드" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="클로드 섀넌" target="앤트로픽" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="알렉산더 타라샨스키" target="Claude Science" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="NASA" target="클로드" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">클로드 (언어 모델)</data>
+    </edge>
+    <edge source="스탠포드 인간 중심 인공 지능 연구소" target="파운데이션 모델 연구 센터" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">파운데이션 모델</data>
+    </edge>
+    <edge source="마화텅" target="텐센트" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="라이엇 게임즈" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="카카오" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">2</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="에픽게임즈" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="슈퍼셀" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="유비소프트" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="디스코드" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="레딧" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="텐센트코리아" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="텐센트" target="CJ넷마블" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="장즈둥" target="텐센트" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">텐센트</data>
+    </edge>
+    <edge source="B. C. 포브스" target="포브스" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="포브스" target="포브스8" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="포브스" target="포브스 라이프" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="포브스" target="포브스 트래블 가이드" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="포브스" target="스트림" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="포브스" target="포브스우먼" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="스티브 포브스" target="포브스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="셰리 필립스" target="포브스" id="0">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="포브스 미디어" target="인티그레이티드 웨일 미디어 인베스트먼트" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="허깅 페이스" target="SmolVLM" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="허깅 페이스" target="BLOOM" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="허깅 페이스" target="아마존 웹 서비스" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="허깅 페이스" target="폴렌 로보틱스" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="허깅 페이스" target="엔비디아" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="아라빈드 스리니바스" target="퍼플렉시티 (검색 엔진)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="아라빈드 스리니바스" target="퍼플렉시티 (검색 엔진)" id="1">
+      <data key="d1">LEADS</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="아라빈드 스리니바스" target="오픈AI" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="아라빈드 스리니바스" target="구글 브레인" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="아라빈드 스리니바스" target="구글 딥마인드" id="0">
+      <data key="d1">WORKED_AT</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="퍼플렉시티 페이지" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="Sonar" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="R1 1776" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="퍼플렉시티 어시스턴트" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="코멧" id="0">
+      <data key="d1">RELEASED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="아마존" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="엔비디아" id="0">
+      <data key="d1">PARTNERED_WITH</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="퍼플렉시티 (검색 엔진)" target="Perplexity Solved Solutions" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="데니스 야라츠" target="퍼플렉시티 (검색 엔진)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="조니 호" target="퍼플렉시티 (검색 엔진)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="앤디 콘윈스키" target="퍼플렉시티 (검색 엔진)" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="크리스티아누 호날두" target="퍼플렉시티 (검색 엔진)" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">퍼플렉시티 (검색 엔진)</data>
+    </edge>
+    <edge source="포브스 코리아" target="중앙일보" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="중앙일보" target="포브스 코리아" id="0">
+      <data key="d1">PARENT_OF</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="중앙일보S" target="포브스 코리아" id="0">
+      <data key="d1">ACQUIRED</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="바이낸스" target="포브스" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="오스틴 러셀" target="포브스" id="0">
+      <data key="d1">INVESTED_IN</data>
+      <data key="d2">1</data>
+      <data key="d3">포브스</data>
+    </edge>
+    <edge source="맥스 레브친" target="칸피니티" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="피터 틸" target="칸피니티" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="루크 노섹" target="칸피니티" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="켄 하워리" target="칸피니티" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="엑스 닷컴" target="페이팔" id="0">
+      <data key="d1">DEVELOPED</data>
+      <data key="d2">1</data>
+      <data key="d3">페이팔</data>
+    </edge>
+    <edge source="클레망 들랑그" target="허깅 페이스" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="줄리앙 쇼몽" target="허깅 페이스" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+    <edge source="토마스 울프" target="허깅 페이스" id="0">
+      <data key="d1">FOUNDED</data>
+      <data key="d2">1</data>
+      <data key="d3">허깅 페이스</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,484 @@
+{
+  "summary_by_hop": {
+    "1": {
+      "문항수": 6,
+      "GraphRAG_정확도": 1.0,
+      "basicRAG_정확도": 0.17,
+      "GraphRAG_경로재현율_평균": 1.0
+    },
+    "2": {
+      "문항수": 4,
+      "GraphRAG_정확도": 0.75,
+      "basicRAG_정확도": 0.25,
+      "GraphRAG_경로재현율_평균": 0.75
+    },
+    "3": {
+      "문항수": 2,
+      "GraphRAG_정확도": 0.0,
+      "basicRAG_정확도": 0.0,
+      "GraphRAG_경로재현율_평균": 0.17
+    },
+    "거부(근거없음)": {
+      "문항수": 2,
+      "GraphRAG_정확도": 1.0,
+      "basicRAG_정확도": 1.0,
+      "GraphRAG_경로재현율_평균": null
+    }
+  },
+  "items": [
+    {
+      "id": "q01",
+      "hop_count": 1,
+      "answerable": true,
+      "question": "엔비디아는 누가 설립했나요?",
+      "expected_answer": "젠슨 황",
+      "graphrag": {
+        "answer": "젠슨 황",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "젠슨 황",
+            "relation": "FOUNDED",
+            "object": "엔비디아"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "엔비디아",
+          "GPT_(언어_모델)",
+          "GPT-4",
+          "파운데이션_모델",
+          "지능형_에이전트"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q02",
+      "hop_count": 1,
+      "answerable": true,
+      "question": "딥마인드를 인수한 회사는 어디인가요?",
+      "expected_answer": "구글",
+      "graphrag": {
+        "answer": "구글",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "구글",
+            "relation": "ACQUIRED",
+            "object": "구글 딥마인드"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "아마존_(기업)",
+          "메타_(기업)",
+          "메타_플랫폼스",
+          "엔비디아",
+          "일론_머스크"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q03",
+      "hop_count": 1,
+      "answerable": true,
+      "question": "마이크로소프트가 투자한 AI 회사는 어디인가요?",
+      "expected_answer": "오픈AI",
+      "graphrag": {
+        "answer": "오픈AI",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "마이크로소프트",
+            "relation": "INVESTED_IN",
+            "object": "오픈AI"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "엔비디아",
+          "미스트랄_AI",
+          "마이크로소프트_코파일럿",
+          "마이크로소프트",
+          "GPT-5"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q04",
+      "hop_count": 1,
+      "answerable": true,
+      "question": "깃허브 코파일럿은 어떤 모델을 기반으로 만들어졌나요?",
+      "expected_answer": "오픈AI 코덱스 (GPT-3의 수정된 프로덕션 버전)",
+      "graphrag": {
+        "answer": "오픈AI 코덱스",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "깃허브 코파일럿",
+            "relation": "BUILT_ON",
+            "object": "오픈AI 코덱스"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "깃허브 코파일럿은 오픈AI의 GPT-3(Generative Pre-trained Transformer 3)의 수정된 프로덕션 버전인 오픈AI 코덱스를 기반으로 하고 있습니다.",
+        "retrieved_docs": [
+          "깃허브_코파일럿",
+          "마이크로소프트_코파일럿",
+          "GPT-4",
+          "제미니_(언어_모델)",
+          "랭체인"
+        ],
+        "correct": true
+      }
+    },
+    {
+      "id": "q05",
+      "hop_count": 1,
+      "answerable": true,
+      "question": "깃허브의 모회사는 어디인가요?",
+      "expected_answer": "마이크로소프트",
+      "graphrag": {
+        "answer": "마이크로소프트",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "마이크로소프트",
+            "relation": "PARENT_OF",
+            "object": "깃허브"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "깃허브_코파일럿",
+          "DALL-E",
+          "GPT-2",
+          "GPT-3",
+          "GPT-4.1"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q06",
+      "hop_count": 1,
+      "answerable": true,
+      "question": "앤트로픽이 2024년에 국방·정보 기관 대상 파트너십을 맺은 기업은 어디인가요?",
+      "expected_answer": "팔란티어 테크놀로지스 (아마존 웹 서비스도 함께)",
+      "graphrag": {
+        "answer": "팔란티어 테크놀로지스, 아마존 웹 서비스",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "앤트로픽",
+            "relation": "PARTNERED_WITH",
+            "object": "팔란티어 테크놀로지스"
+          },
+          {
+            "subject": "앤트로픽",
+            "relation": "PARTNERED_WITH",
+            "object": "아마존 웹 서비스"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "앤트로픽",
+          "클로드_(언어_모델)",
+          "허깅_페이스",
+          "메타_(기업)",
+          "메타_플랫폼스"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q07",
+      "hop_count": 2,
+      "answerable": true,
+      "question": "앤트로픽에 투자한 기업 중, 딥마인드를 인수한 곳은 어디인가요?",
+      "expected_answer": "구글",
+      "graphrag": {
+        "answer": "구글",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "구글",
+            "relation": "INVESTED_IN",
+            "object": "앤트로픽"
+          },
+          {
+            "subject": "구글",
+            "relation": "ACQUIRED",
+            "object": "구글 딥마인드"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "앤트로픽",
+          "아마존_(기업)",
+          "엔비디아",
+          "메타_(기업)",
+          "메타_플랫폼스"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q08",
+      "hop_count": 2,
+      "answerable": true,
+      "question": "챗GPT를 구동하는 데 쓰인 GPU를 만드는 회사는 누가 설립했나요?",
+      "expected_answer": "젠슨 황 (엔비디아 설립자)",
+      "graphrag": {
+        "answer": "모르겠습니다. 코퍼스 안에서 이 질문에 답할 근거를 찾지 못했습니다.",
+        "refused": true,
+        "hop_used": 3,
+        "path_used": [],
+        "correct": false,
+        "path_recall": 0.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "GPT-4",
+          "챗GPT",
+          "파운데이션_모델",
+          "GPT_(언어_모델)",
+          "구글_바드"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q09",
+      "hop_count": 2,
+      "answerable": true,
+      "question": "깃허브 코파일럿이 기반으로 하는 모델을 만든 회사는 어디인가요?",
+      "expected_answer": "오픈AI",
+      "graphrag": {
+        "answer": "오픈AI",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "깃허브 코파일럿",
+            "relation": "BUILT_ON",
+            "object": "오픈AI 코덱스"
+          },
+          {
+            "subject": "오픈AI",
+            "relation": "DEVELOPED",
+            "object": "오픈AI 코덱스"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "깃허브 코파일럿이 기반으로 하는 모델을 만든 회사는 오픈AI입니다.",
+        "retrieved_docs": [
+          "마이크로소프트_코파일럿",
+          "깃허브_코파일럿",
+          "GPT-4",
+          "허깅_페이스",
+          "챗GPT"
+        ],
+        "correct": true
+      }
+    },
+    {
+      "id": "q10",
+      "hop_count": 2,
+      "answerable": true,
+      "question": "깃허브의 모회사가 투자한 AI 회사는 어디인가요?",
+      "expected_answer": "오픈AI",
+      "graphrag": {
+        "answer": "오픈AI",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "마이크로소프트",
+            "relation": "PARENT_OF",
+            "object": "깃허브"
+          },
+          {
+            "subject": "마이크로소프트",
+            "relation": "INVESTED_IN",
+            "object": "오픈AI"
+          }
+        ],
+        "correct": true,
+        "path_recall": 1.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "깃허브_코파일럿",
+          "엔비디아",
+          "허깅_페이스",
+          "소라_(텍스트-비디오_모델)",
+          "미스트랄_AI"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q11",
+      "hop_count": 3,
+      "answerable": true,
+      "question": "미스트랄 AI를 만든 사람 중 한 명이 이전에 몸담았던 회사는 어디이고, 그 회사는 누구에게 인수되었나요?",
+      "expected_answer": "구글 딥마인드에 몸담았었고, 구글 딥마인드는 구글에 인수됨",
+      "graphrag": {
+        "answer": "모르겠습니다. 코퍼스 안에서 이 질문에 답할 근거를 찾지 못했습니다.",
+        "refused": true,
+        "hop_used": 3,
+        "path_used": [],
+        "correct": false,
+        "path_recall": 0.0
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "일론_머스크",
+          "미스트랄_AI",
+          "클로드_(언어_모델)",
+          "X_(소셜_네트워크)",
+          "생성형_인공지능"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q12",
+      "hop_count": 3,
+      "answerable": true,
+      "question": "일리야 수츠케버가 공동 설립한 오픈AI를 현재 이끄는 사람은 누구이고, 그 사람은 오픈AI 설립 당시 어느 조직의 대표였나요?",
+      "expected_answer": "샘 올트먼, 와이 콤비네이터(Y Combinator)의 사장",
+      "graphrag": {
+        "answer": "샘 올트먼",
+        "refused": false,
+        "hop_used": 2,
+        "path_used": [
+          {
+            "subject": "일리야 수츠케버",
+            "relation": "LEADS",
+            "object": "오픈AI"
+          },
+          {
+            "subject": "샘 올트먼",
+            "relation": "LEADS",
+            "object": "오픈AI"
+          },
+          {
+            "subject": "샘 올트먼",
+            "relation": "FOUNDED",
+            "object": "오픈AI"
+          }
+        ],
+        "correct": false,
+        "path_recall": 0.3333333333333333
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "오픈AI",
+          "OpenAI",
+          "일론_머스크",
+          "Grok",
+          "GPT_(언어_모델)"
+        ],
+        "correct": false
+      }
+    },
+    {
+      "id": "q13",
+      "hop_count": null,
+      "answerable": false,
+      "question": "삼성전자가 투자한 AI 스타트업은 어디인가요?",
+      "expected_answer": "모름 (근거 없음)",
+      "graphrag": {
+        "answer": "모르겠습니다. 코퍼스 안에서 이 질문에 답할 근거를 찾지 못했습니다.",
+        "refused": true,
+        "hop_used": 3,
+        "path_used": [],
+        "correct": true,
+        "path_recall": null
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "엔비디아",
+          "랭체인",
+          "허깅_페이스",
+          "미스트랄_AI",
+          "일론_머스크"
+        ],
+        "correct": true
+      }
+    },
+    {
+      "id": "q14",
+      "hop_count": null,
+      "answerable": false,
+      "question": "테슬라와 텐센트 사이에 인수나 투자 관계가 있나요?",
+      "expected_answer": "모름 (근거 없음)",
+      "graphrag": {
+        "answer": "모르겠습니다. 코퍼스 안에서 이 질문에 답할 근거를 찾지 못했습니다.",
+        "refused": true,
+        "hop_used": 3,
+        "path_used": [],
+        "correct": true,
+        "path_recall": null
+      },
+      "basic_rag": {
+        "answer": "모르겠습니다.",
+        "retrieved_docs": [
+          "텐센트",
+          "일론_머스크",
+          "마크_저커버그",
+          "젠슨_황",
+          "메타_(기업)"
+        ],
+        "correct": true
+      }
+    }
+  ]
+}
