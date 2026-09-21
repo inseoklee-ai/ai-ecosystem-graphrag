@@ -14,14 +14,15 @@
 
 ## 🌐 라이브 데모
 
-**[여기서 바로 써보기 →](<STREAMLIT_CLOUD_URL_여기에>)**
+**[여기서 바로 써보기 →](https://ai-ecosystem-graphrag-5lpdgjw99e3pm2dyb9be36.streamlit.app/)**
 
 방문자 각자의 OpenAI API 키로 동작합니다. 화면 왼쪽에 본인의 키(`sk-...`)를 입력해야
 질문할 수 있고, 키는 서버에 저장되지 않으며 탭을 닫으면 그 세션의 키는 사라집니다.
 API 요금은 입력한 키의 소유자에게 청구되니, 사용 전 [OpenAI 대시보드](https://platform.openai.com/account/limits)에서
 지출 한도를 걸어두는 걸 권장합니다.
 
-> 위 링크가 아직 비어 있다면 아직 배포 전입니다 — 아래 "직접 배포하기" 참고.
+> Streamlit Community Cloud 무료 플랜은 한동안 방문이 없으면 앱을 재운다. 오랜만에 열면
+> 몇 초~몇십 초간 "waking up" 화면이 뜰 수 있으니 잠시 기다리면 된다.
 
 ### 직접 배포하기 (Streamlit Community Cloud, 무료)
 
