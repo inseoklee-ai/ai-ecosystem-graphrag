@@ -1,5 +1,8 @@
 # REPORT — AI 기업 · 모델 · 제품 생태계 GraphRAG 에이전트
 
+- **GitHub**: [inseoklee-ai/ai-ecosystem-graphrag](https://github.com/inseoklee-ai/ai-ecosystem-graphrag)
+- **라이브 데모**: [ai-ecosystem-graphrag-5lpdgjw99e3pm2dyb9be36.streamlit.app](https://ai-ecosystem-graphrag-5lpdgjw99e3pm2dyb9be36.streamlit.app/) (방문자 각자의 OpenAI API 키로 동작. 자세한 내용은 5장)
+
 ## 1. 주제와 코퍼스
 
 ### 주제를 고른 이유
@@ -175,6 +178,15 @@ path_used · evidence_used · refused · refusal_reason` 필드로 구성된다
 다 있는데도 답을 못 내는 경우(q11)를 코드 버그가 아니라 모델의 다중 후보 탐색 한계로
 정확히 좁힌 것 — `AnswerResult`에 `reasoning` 필드를 추가해 모델의 실제 사고 과정을
 들여다본 것 — 이 가장 값진 작업이었다.
+
+Streamlit Cloud에 실제로 배포할 때도 비슷한 일이 있었다. `requirements.txt` 설치가
+"Error installing requirements"로만 실패해서, 처음엔 사용하지 않던 `langchain-openai`
+의존성을 의심해 지웠지만 재발했다. 로그를 끝까지 읽어보니 진짜 원인은 Streamlit Cloud가
+Python 3.14를 쓰는데 우리가 고정한 `pydantic-core==2.23.4`가 그 버전용 사전 빌드 파일이
+없어 Rust로 소스 빌드를 시도하다 실패한 것이었다(`runtime.txt`로 3.12를 지정해도 반영되지
+않았다). 근본 원인을 pydantic 버전 고정 자체로 보고 상한만 두는 방식(`pydantic>=2.9,<3`)으로
+바꿔 리졸버가 3.14용 wheel이 있는 최신 버전을 고르게 하고서야 해결됐다 — 겉보기엔 같은
+"Error installing requirements"라도 원인은 매번 로그를 끝까지 읽어야 알 수 있었다.
 
 **향후 보완하고 싶은 점**
 1. **관계에 시점 속성 추가**: LEADS·WORKED_AT에 `since`/`until`을 넣으면 q12류의
