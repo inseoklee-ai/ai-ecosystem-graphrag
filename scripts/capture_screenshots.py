@@ -1,14 +1,25 @@
-"""README용 데모 화면 캡처. streamlit run app.py 가 localhost:8501에서 떠 있어야 한다."""
+"""README용 데모 화면 캡처(개발자 전용, requirements.txt에는 없음).
+사전 준비: pip install playwright && playwright install chromium
+streamlit run app.py 가 localhost:8501에서 떠 있어야 하고, OPENAI_API_KEY 환경변수
+(또는 keys.env)가 설정되어 있어야 실제 답변 화면을 캡처할 수 있다."""
+import os
 import time
+
+from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
 
+load_dotenv(r"C:\Users\lis29\projects\keys.env")
+API_KEY = os.environ["OPENAI_API_KEY"]
 URL = "http://localhost:8501"
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page(viewport={"width": 1280, "height": 900})
     page.goto(URL)
-    page.wait_for_selector("input[type=text]", timeout=15000)
+    page.wait_for_selector("input[type=password]", timeout=15000)
+    time.sleep(1)
+    page.fill("input[type=password]", API_KEY)
+    page.keyboard.press("Tab")
     time.sleep(1)
 
     # 1) 엔비디아 질문 -> 답변 + 경로 + 근거

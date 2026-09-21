@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel
 
-load_dotenv(r"C:\Users\lis29\projects\keys.env")
+load_dotenv(r"C:\Users\lis29\projects\keys.env")  # 로컬 개발용. 없으면 조용히 넘어간다.
 
 ROOT = Path(__file__).resolve().parent
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
@@ -34,7 +34,28 @@ MAX_HOPS = CONFIG["traversal"]["max_hops"]
 HUB_DEGREE_THRESHOLD = CONFIG["traversal"]["hub_degree_threshold"]
 HUB_FANOUT_CAP = CONFIG["traversal"]["hub_fanout_cap"]
 
-client = OpenAI()
+# 환경변수에 키가 있으면(로컬 개발) 바로 쓰고, 없으면(데모 배포) None으로 두고
+# 데모 화면에서 사용자가 입력한 키로 set_api_key()를 호출해 채운다.
+try:
+    client: Optional[OpenAI] = OpenAI()
+except Exception:
+    client = None
+
+
+def set_api_key(api_key: str) -> None:
+    """데모(app.py)에서 사용자가 입력한 키로 클라이언트를 새로 만든다.
+    이 프로세스 메모리에서만 쓰이고 디스크에 저장되지 않는다."""
+    global client
+    client = OpenAI(api_key=api_key)
+
+
+def _require_client() -> OpenAI:
+    if client is None:
+        raise RuntimeError(
+            "OpenAI API 키가 설정되지 않았습니다. "
+            "환경변수 OPENAI_API_KEY를 설정하거나 agent.set_api_key(키)를 먼저 호출하세요."
+        )
+    return client
 
 
 def load_graph() -> nx.MultiDiGraph:
@@ -87,7 +108,7 @@ def normalize_name(name: str) -> str:
 
 
 def extract_mentions(question: str) -> list[str]:
-    completion = client.beta.chat.completions.parse(
+    completion = _require_client().beta.chat.completions.parse(
         model=MODEL_NAME,
         temperature=0,
         messages=[
@@ -240,7 +261,7 @@ def answer_from_subgraph(state: AgentState) -> AgentState:
     if state.get("refused"):
         return state
     context = format_subgraph(state["subgraph_triples"])
-    completion = client.beta.chat.completions.parse(
+    completion = _require_client().beta.chat.completions.parse(
         model=MODEL_NAME,
         temperature=0,
         messages=[

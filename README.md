@@ -12,7 +12,25 @@
                 끊기면 넓히고(2홉→3홉), 그래도 없으면 모른다고 말하기
 ```
 
-## 환경 준비
+## 🌐 라이브 데모
+
+**[여기서 바로 써보기 →](<STREAMLIT_CLOUD_URL_여기에>)**
+
+방문자 각자의 OpenAI API 키로 동작합니다. 화면 왼쪽에 본인의 키(`sk-...`)를 입력해야
+질문할 수 있고, 키는 서버에 저장되지 않으며 탭을 닫으면 그 세션의 키는 사라집니다.
+API 요금은 입력한 키의 소유자에게 청구되니, 사용 전 [OpenAI 대시보드](https://platform.openai.com/account/limits)에서
+지출 한도를 걸어두는 걸 권장합니다.
+
+> 위 링크가 아직 비어 있다면 아직 배포 전입니다 — 아래 "직접 배포하기" 참고.
+
+### 직접 배포하기 (Streamlit Community Cloud, 무료)
+
+1. [share.streamlit.io](https://share.streamlit.io)에서 GitHub 계정으로 로그인
+2. "New app" → 이 저장소(`ai-ecosystem-graphrag`) 선택 → main file을 `app.py`로 지정 → Deploy
+3. API 키는 여기서 입력하지 않습니다 — 방문자가 화면에서 직접 입력하는 구조라 Secrets 설정이 필요 없습니다.
+4. 배포되면 나온 URL을 위 "라이브 데모" 링크 자리에 채워 넣으면 됩니다.
+
+## 로컬 환경 준비
 
 ```bash
 python -m venv .venv
@@ -20,10 +38,12 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-OpenAI API 키가 필요합니다. 이 프로젝트는 `keys.env`를 별도 경로에서 읽습니다
-(레포에 키를 커밋하지 않기 위함). `build_graph.py`, `agent.py`, `evaluate.py` 상단의
-`load_dotenv(...)` 경로를 자신의 키 파일 경로로 바꾸거나, 프로젝트 루트에 `.env`를 만들고
-`OPENAI_API_KEY=...`를 넣은 뒤 `load_dotenv()`로 바꿔 쓰세요.
+`app.py`(데모)는 화면에서 API 키를 입력받으므로 별도 설정이 필요 없습니다.
+반면 `collect_corpus.py` / `build_graph.py` / `evaluate.py` / `agent.py`를 커맨드라인으로
+직접 실행할 때는 환경변수 `OPENAI_API_KEY`가 필요합니다. 이 프로젝트는 로컬 개발 편의를 위해
+`keys.env`를 별도 경로에서 읽도록 되어 있습니다(레포에 키를 커밋하지 않기 위함) — 각 파일
+상단의 `load_dotenv(...)` 경로를 자신의 키 파일 경로로 바꾸거나, 그냥 환경변수
+`OPENAI_API_KEY`를 직접 설정해도 됩니다(파일이 없으면 조용히 건너뜁니다).
 
 ## 실행 순서 (파이프라인 전체)
 
@@ -52,7 +72,8 @@ streamlit run app.py
 ![데모 화면 - 답변과 경로](docs/screenshot_answer.png)
 ![데모 화면 - 거부 사례](docs/screenshot_refuse.png)
 
-왼쪽 사이드바의 예시 질문을 클릭하면 입력창에 채워집니다. "질문하기"를 누르면:
+왼쪽 사이드바에 본인의 OpenAI API 키를 넣고, 예시 질문을 클릭하면 입력창에 채워집니다.
+"질문하기"를 누르면:
 - **답변**: 근거로 조회된 삼중항만으로 만든 답
 - **시작 개체 / 사용한 홉 수 / 근거 부족 여부**: 탐색이 어떻게 이뤄졌는지 요약
 - **탄 경로**: 실제로 탄 관계 사슬 (개체 --[관계]--> 개체)

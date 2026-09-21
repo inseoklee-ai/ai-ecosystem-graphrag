@@ -6,6 +6,7 @@
 """
 import streamlit as st
 
+import agent
 from agent import ask
 
 st.set_page_config(page_title="AI 생태계 GraphRAG 챗봇", page_icon="🕸️", layout="wide")
@@ -15,6 +16,25 @@ st.caption(
     "위키백과 문서 60건에서 뽑은 지식 그래프(노드 608개 · 엣지 702개) 위에서 "
     "시작 개체 → n홉 확장 → 근거 기반 답변을 수행합니다. 근거가 없으면 지어내지 않고 모른다고 답합니다."
 )
+
+with st.sidebar:
+    st.subheader("🔑 OpenAI API 키")
+    api_key_input = st.text_input(
+        "본인의 OpenAI API 키를 입력하세요",
+        type="password",
+        key="api_key",
+        placeholder="sk-...",
+        help=(
+            "이 데모는 방문자 각자의 키로 동작합니다. 입력한 키는 저장되지 않고 "
+            "이 브라우저 세션 동안만 서버 메모리에서 쓰이며, 탭을 닫으면 사라집니다. "
+            "API 사용 요금은 키 소유자에게 청구됩니다."
+        ),
+    )
+    st.caption(
+        "키가 없으신가요? [platform.openai.com/api-keys](https://platform.openai.com/api-keys)에서 "
+        "발급받을 수 있습니다. 남용을 막으려면 발급 후 지출 한도를 걸어두는 걸 권장합니다."
+    )
+    st.divider()
 
 EXAMPLES = [
     "엔비디아는 누가 설립했나요?",
@@ -42,9 +62,16 @@ question = st.text_input(
 )
 run = st.button("질문하기", type="primary")
 
-if run and question.strip():
-    with st.spinner("시작 개체를 찾고, 그래프를 확장하는 중..."):
-        result = ask(question)
+if run and not api_key_input.strip():
+    st.error("먼저 왼쪽 사이드바에 본인의 OpenAI API 키를 입력해주세요.")
+elif run and question.strip():
+    agent.set_api_key(api_key_input.strip())
+    try:
+        with st.spinner("시작 개체를 찾고, 그래프를 확장하는 중..."):
+            result = ask(question)
+    except Exception as e:
+        st.error(f"API 호출 중 오류가 발생했습니다: {e}")
+        st.stop()
 
     st.divider()
     st.subheader("답변")
